@@ -1128,6 +1128,12 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/noir.psd": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/noir.psd",
+		"oF": 0
+		},
 	"\/sftp-config.json": {
 		"ft": 524288,
 		"oA": 1,
