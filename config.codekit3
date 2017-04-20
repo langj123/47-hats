@@ -1,0 +1,3211 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "7D89F529-E9E9-4CD3-9277-02899CD2FF56"
+		}
+	],
+"creatorBuild": "25444",
+"files": {
+	"\/47-hats.sublime-project": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/47-hats.sublime-project",
+		"oF": 0
+		},
+	"\/47-hats.sublime-workspace": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/47-hats.sublime-workspace",
+		"oF": 0
+		},
+	"\/_img\/01-d-1.png": {
+		"ft": 32768,
+		"iS": 70956,
+		"oA": 0,
+		"oAP": "\/_img\/01-d-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/01-d.png": {
+		"ft": 32768,
+		"iS": 70956,
+		"oA": 0,
+		"oAP": "\/_img\/01-d.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/02-d-1.png": {
+		"ft": 32768,
+		"iS": 78353,
+		"oA": 0,
+		"oAP": "\/_img\/02-d-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/02-d.png": {
+		"ft": 32768,
+		"iS": 78353,
+		"oA": 0,
+		"oAP": "\/_img\/02-d.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/03-d-1.png": {
+		"ft": 32768,
+		"iS": 74430,
+		"oA": 0,
+		"oAP": "\/_img\/03-d-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/03-d.png": {
+		"ft": 32768,
+		"iS": 74430,
+		"oA": 0,
+		"oAP": "\/_img\/03-d.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/04-d-1.png": {
+		"ft": 32768,
+		"iS": 51365,
+		"oA": 0,
+		"oAP": "\/_img\/04-d-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/04-d-2.png": {
+		"ft": 32768,
+		"iS": 53984,
+		"oA": 0,
+		"oAP": "\/_img\/04-d-2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/04-d-3.png": {
+		"ft": 32768,
+		"iS": 53526,
+		"oA": 0,
+		"oAP": "\/_img\/04-d-3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/04-d.png": {
+		"ft": 32768,
+		"iS": 51365,
+		"oA": 0,
+		"oAP": "\/_img\/04-d.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/05-d-1.png": {
+		"ft": 32768,
+		"iS": 73313,
+		"oA": 0,
+		"oAP": "\/_img\/05-d-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/05-d.png": {
+		"ft": 32768,
+		"iS": 73313,
+		"oA": 0,
+		"oAP": "\/_img\/05-d.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/06-d-1.png": {
+		"ft": 32768,
+		"iS": 79297,
+		"oA": 0,
+		"oAP": "\/_img\/06-d-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/06-d.png": {
+		"ft": 32768,
+		"iS": 79297,
+		"oA": 0,
+		"oAP": "\/_img\/06-d.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/06_47_Classics_DTLA_3647.jpg": {
+		"ft": 16384,
+		"iS": 197764,
+		"oA": 0,
+		"oAP": "\/_img\/06_47_Classics_DTLA_3647.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/06_47_Classics_DTLA_3705.jpg": {
+		"ft": 16384,
+		"iS": 98270,
+		"oA": 0,
+		"oAP": "\/_img\/06_47_Classics_DTLA_3705.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/_img\/06_47_Classics_DTLA_3795.jpg": {
+		"ft": 16384,
+		"iS": 58900,
+		"oA": 0,
+		"oAP": "\/_img\/06_47_Classics_DTLA_3795.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/_img\/06_47_Classics_DTLA_3841.jpg": {
+		"ft": 16384,
+		"iS": 94476,
+		"oA": 0,
+		"oAP": "\/_img\/06_47_Classics_DTLA_3841.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/06_47_Classics_DTLA_3935.jpg": {
+		"ft": 16384,
+		"iS": 86410,
+		"oA": 0,
+		"oAP": "\/_img\/06_47_Classics_DTLA_3935.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/06_47_Classics_DTLA_3944.jpg": {
+		"ft": 16384,
+		"iS": 90735,
+		"oA": 0,
+		"oAP": "\/_img\/06_47_Classics_DTLA_3944.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/_img\/06_47_Classics_DTLA_3951.jpg": {
+		"ft": 16384,
+		"iS": 153110,
+		"oA": 0,
+		"oAP": "\/_img\/06_47_Classics_DTLA_3951.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/06_47_Classics_DTLA_3970.jpg": {
+		"ft": 16384,
+		"iS": 135269,
+		"oA": 0,
+		"oAP": "\/_img\/06_47_Classics_DTLA_3970.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/06_47_Classics_DTLA_4144.jpg": {
+		"ft": 16384,
+		"iS": 170814,
+		"oA": 0,
+		"oAP": "\/_img\/06_47_Classics_DTLA_4144.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/_img\/06_47_Classics_DTLA_4170.jpg": {
+		"ft": 16384,
+		"iS": 233239,
+		"oA": 0,
+		"oAP": "\/_img\/06_47_Classics_DTLA_4170.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/07-d-1.png": {
+		"ft": 32768,
+		"iS": 72049,
+		"oA": 0,
+		"oAP": "\/_img\/07-d-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/07-d.png": {
+		"ft": 32768,
+		"iS": 72049,
+		"oA": 0,
+		"oAP": "\/_img\/07-d.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/08-d-1.png": {
+		"ft": 32768,
+		"iS": 71334,
+		"oA": 0,
+		"oAP": "\/_img\/08-d-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/08-d.png": {
+		"ft": 32768,
+		"iS": 71334,
+		"oA": 0,
+		"oAP": "\/_img\/08-d.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/09-d-1.png": {
+		"ft": 32768,
+		"iS": 65127,
+		"oA": 0,
+		"oAP": "\/_img\/09-d-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/09-d.png": {
+		"ft": 32768,
+		"iS": 65127,
+		"oA": 0,
+		"oAP": "\/_img\/09-d.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/10-d-1.png": {
+		"ft": 32768,
+		"iS": 41014,
+		"oA": 0,
+		"oAP": "\/_img\/10-d-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/10-d.png": {
+		"ft": 32768,
+		"iS": 41014,
+		"oA": 0,
+		"oAP": "\/_img\/10-d.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/11-d-1.png": {
+		"ft": 32768,
+		"iS": 64068,
+		"oA": 0,
+		"oAP": "\/_img\/11-d-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/11-d.png": {
+		"ft": 32768,
+		"iS": 64068,
+		"oA": 0,
+		"oAP": "\/_img\/11-d.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/12-d-1.png": {
+		"ft": 32768,
+		"iS": 70048,
+		"oA": 0,
+		"oAP": "\/_img\/12-d-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/12-d.png": {
+		"ft": 32768,
+		"iS": 70048,
+		"oA": 0,
+		"oAP": "\/_img\/12-d.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/321841-HR-AF.png": {
+		"ft": 32768,
+		"iS": 262562,
+		"oA": 0,
+		"oAP": "\/_img\/321841-HR-AF.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/321853-HR-AF.png": {
+		"ft": 32768,
+		"iS": 261142,
+		"oA": 0,
+		"oAP": "\/_img\/321853-HR-AF.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/321862-HR-AF.png": {
+		"ft": 32768,
+		"iS": 321832,
+		"oA": 0,
+		"oAP": "\/_img\/321862-HR-AF.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/321865-HR-AF.png": {
+		"ft": 32768,
+		"iS": 285073,
+		"oA": 0,
+		"oAP": "\/_img\/321865-HR-AF.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/321877-HR-AF.png": {
+		"ft": 32768,
+		"iS": 190444,
+		"oA": 0,
+		"oAP": "\/_img\/321877-HR-AF.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/321880-HR-AF.png": {
+		"ft": 32768,
+		"iS": 311112,
+		"oA": 0,
+		"oAP": "\/_img\/321880-HR-AF.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/321887-HR-AF.png": {
+		"ft": 32768,
+		"iS": 287118,
+		"oA": 0,
+		"oAP": "\/_img\/321887-HR-AF.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/322034-HR-AF.png": {
+		"ft": 32768,
+		"iS": 248910,
+		"oA": 0,
+		"oAP": "\/_img\/322034-HR-AF.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/322037-HR-AF.png": {
+		"ft": 32768,
+		"iS": 264904,
+		"oA": 0,
+		"oAP": "\/_img\/322037-HR-AF.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/322038-HR-AF.png": {
+		"ft": 32768,
+		"iS": 172973,
+		"oA": 0,
+		"oAP": "\/_img\/322038-HR-AF.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/322039-HR-AF.png": {
+		"ft": 32768,
+		"iS": 310100,
+		"oA": 0,
+		"oAP": "\/_img\/322039-HR-AF.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/47-classics": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_img\/47-classics",
+		"oF": 0
+		},
+	"\/_img\/47-classics.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_img\/47-classics.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_img\/baserunner-crew.png": {
+		"ft": 32768,
+		"iS": 91602,
+		"oA": 0,
+		"oAP": "\/_img\/baserunner-crew.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/black-hat.png": {
+		"ft": 32768,
+		"iS": 188010,
+		"oA": 0,
+		"oAP": "\/_img\/black-hat.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/blitz-pullover.png": {
+		"ft": 32768,
+		"iS": 106130,
+		"oA": 0,
+		"oAP": "\/_img\/blitz-pullover.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/blue-hat.png": {
+		"ft": 32768,
+		"iS": 264896,
+		"oA": 0,
+		"oAP": "\/_img\/blue-hat.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/blurred-hats.jpg": {
+		"ft": 16384,
+		"iS": 166311,
+		"oA": 0,
+		"oAP": "\/_img\/blurred-hats.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/_img\/borderland-hat.png": {
+		"ft": 32768,
+		"iS": 296895,
+		"oA": 0,
+		"oAP": "\/_img\/borderland-hat.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/borderland-t.png": {
+		"ft": 32768,
+		"iS": 107497,
+		"oA": 0,
+		"oAP": "\/_img\/borderland-t.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/cardinals.jpg": {
+		"ft": 16384,
+		"iS": 98510,
+		"oA": 0,
+		"oAP": "\/_img\/cardinals.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/cardinals.png": {
+		"ft": 32768,
+		"iS": 210025,
+		"oA": 0,
+		"oAP": "\/_img\/cardinals.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/couple-walking.png": {
+		"ft": 32768,
+		"iS": 205362,
+		"oA": 0,
+		"oAP": "\/_img\/couple-walking.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/cuse.jpg": {
+		"ft": 16384,
+		"iS": 61947,
+		"oA": 0,
+		"oAP": "\/_img\/cuse.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/downfield-hood.png": {
+		"ft": 32768,
+		"iS": 61148,
+		"oA": 0,
+		"oAP": "\/_img\/downfield-hood.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/encoder-hat.png": {
+		"ft": 32768,
+		"iS": 277973,
+		"oA": 0,
+		"oAP": "\/_img\/encoder-hat.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/fan-pic.png": {
+		"ft": 32768,
+		"iS": 216627,
+		"oA": 0,
+		"oAP": "\/_img\/fan-pic.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/green-hat.png": {
+		"ft": 32768,
+		"iS": 194230,
+		"oA": 0,
+		"oAP": "\/_img\/green-hat.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/gun-metal-hat.png": {
+		"ft": 32768,
+		"iS": 241838,
+		"oA": 0,
+		"oAP": "\/_img\/gun-metal-hat.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-0.png": {
+		"ft": 32768,
+		"iS": 379099,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-0.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-1.png": {
+		"ft": 32768,
+		"iS": 394534,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-10.png": {
+		"ft": 32768,
+		"iS": 330051,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-10.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-11.png": {
+		"ft": 32768,
+		"iS": 369510,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-11.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-12.png": {
+		"ft": 32768,
+		"iS": 390408,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-12.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-13.png": {
+		"ft": 32768,
+		"iS": 386251,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-13.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-14.png": {
+		"ft": 32768,
+		"iS": 383792,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-14.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-15.png": {
+		"ft": 32768,
+		"iS": 364787,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-15.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-16.png": {
+		"ft": 32768,
+		"iS": 350402,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-16.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-17.png": {
+		"ft": 32768,
+		"iS": 325652,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-17.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-18.png": {
+		"ft": 32768,
+		"iS": 314010,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-18.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-2.png": {
+		"ft": 32768,
+		"iS": 388021,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-3.png": {
+		"ft": 32768,
+		"iS": 366917,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-4.png": {
+		"ft": 32768,
+		"iS": 336383,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-5.png": {
+		"ft": 32768,
+		"iS": 306677,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-5.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-6.png": {
+		"ft": 32768,
+		"iS": 273453,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-6.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-7.png": {
+		"ft": 32768,
+		"iS": 257179,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-7.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-8.png": {
+		"ft": 32768,
+		"iS": 261840,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-8.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-9.png": {
+		"ft": 32768,
+		"iS": 291712,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-9.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-95.png": {
+		"ft": 32768,
+		"iS": 256727,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-95.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-96.png": {
+		"ft": 32768,
+		"iS": 320660,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-96.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-97.png": {
+		"ft": 32768,
+		"iS": 324891,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-97.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-98.png": {
+		"ft": 32768,
+		"iS": 343344,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-98.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-360-99.png": {
+		"ft": 32768,
+		"iS": 363828,
+		"oA": 0,
+		"oAP": "\/_img\/hat-360-99.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/hat-man-down.png": {
+		"ft": 32768,
+		"iS": 90157,
+		"oA": 0,
+		"oAP": "\/_img\/hat-man-down.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/henley-scrum.png": {
+		"ft": 32768,
+		"iS": 97241,
+		"oA": 0,
+		"oAP": "\/_img\/henley-scrum.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/jumping.jpg": {
+		"ft": 16384,
+		"iS": 182929,
+		"oA": 0,
+		"oAP": "\/_img\/jumping.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/l-arrow.cur": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_img\/l-arrow.cur",
+		"oF": 0
+		},
+	"\/_img\/l-arrow.png": {
+		"ft": 32768,
+		"iS": 1535,
+		"oA": 0,
+		"oAP": "\/_img\/l-arrow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/munson-hat.png": {
+		"ft": 32768,
+		"iS": 235838,
+		"oA": 0,
+		"oAP": "\/_img\/munson-hat.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/pink-hat.png": {
+		"ft": 32768,
+		"iS": 262482,
+		"oA": 0,
+		"oAP": "\/_img\/pink-hat.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/powerplay-hood.png": {
+		"ft": 32768,
+		"iS": 77744,
+		"oA": 0,
+		"oAP": "\/_img\/powerplay-hood.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/r-arrow.cur": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_img\/r-arrow.cur",
+		"oF": 0
+		},
+	"\/_img\/r-arrow.png": {
+		"ft": 32768,
+		"iS": 1514,
+		"oA": 0,
+		"oAP": "\/_img\/r-arrow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/red-hat.png": {
+		"ft": 32768,
+		"iS": 170574,
+		"oA": 0,
+		"oAP": "\/_img\/red-hat.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/sabres.jpg": {
+		"ft": 16384,
+		"iS": 148693,
+		"oA": 0,
+		"oAP": "\/_img\/sabres.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/scrimmage-hood.png": {
+		"ft": 32768,
+		"iS": 104523,
+		"oA": 0,
+		"oAP": "\/_img\/scrimmage-hood.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/scrimmage-zip.png": {
+		"ft": 32768,
+		"iS": 131762,
+		"oA": 0,
+		"oAP": "\/_img\/scrimmage-zip.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/scrum-long-sleeve.png": {
+		"ft": 32768,
+		"iS": 44309,
+		"oA": 0,
+		"oAP": "\/_img\/scrum-long-sleeve.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/scrum-t.png": {
+		"ft": 32768,
+		"iS": 81686,
+		"oA": 0,
+		"oAP": "\/_img\/scrum-t.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/selfstrap-hat.png": {
+		"ft": 32768,
+		"iS": 197143,
+		"oA": 0,
+		"oAP": "\/_img\/selfstrap-hat.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/squatting.jpg": {
+		"ft": 16384,
+		"iS": 36325,
+		"oA": 0,
+		"oAP": "\/_img\/squatting.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/_img\/state-jogger.png": {
+		"ft": 32768,
+		"iS": 80616,
+		"oA": 0,
+		"oAP": "\/_img\/state-jogger.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/stoic-guy-hat.png": {
+		"ft": 32768,
+		"iS": 75235,
+		"oA": 0,
+		"oAP": "\/_img\/stoic-guy-hat.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/stoneham-hat.png": {
+		"ft": 32768,
+		"iS": 271151,
+		"oA": 0,
+		"oAP": "\/_img\/stoneham-hat.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/story-bg-1.jpg": {
+		"ft": 16384,
+		"iS": 102957,
+		"oA": 0,
+		"oAP": "\/_img\/story-bg-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/test-shadow.png": {
+		"ft": 32768,
+		"iS": 3327529,
+		"oA": 0,
+		"oAP": "\/_img\/test-shadow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/WebRes_Final_VintageNavy_05_47_Supply_DTLA_2876.jpg": {
+		"ft": 16384,
+		"iS": 62376,
+		"oA": 0,
+		"oAP": "\/_img\/WebRes_Final_VintageNavy_05_47_Supply_DTLA_2876.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_javascript\/actions-gs-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_javascript\/actions-gs-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_javascript\/actions-gs.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_javascript\/actions-gs-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_javascript\/actions-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_javascript\/actions-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_javascript\/actions-sm-gs-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_javascript\/actions-sm-gs-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_javascript\/actions-sm-gs-OLD.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_javascript\/actions-sm-gs-OLD-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_javascript\/actions-sm-gs.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_javascript\/actions-sm-gs-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_javascript\/actions-solid-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_javascript\/actions-solid-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_javascript\/actions-solid.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_javascript\/actions-solid-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_javascript\/actions.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_javascript\/actions-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_javascript\/jquery.flexslider.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_javascript\/jquery.flexslider-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_javascript\/sample.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_javascript\/sample.html",
+		"oF": 0
+		},
+	"\/_javascript\/scroll-probe.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_javascript\/scroll-probe-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_javascript\/second-actions-gs-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_javascript\/second-actions-gs-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_javascript\/second-actions-gs.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_javascript\/second-actions-gs-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_scss\/style-solid.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/_scss\/style-solid-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_scss\/style-solid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_scss\/style-solid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_scss\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/_scss\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_scss\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_scss\/style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/includes\/47-main-nav.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/includes\/47-main-nav.php",
+		"oF": 0
+		},
+	"\/includes\/footer-47.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/includes\/footer-47.php",
+		"oF": 0
+		},
+	"\/index-OLD.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index-OLD.php",
+		"oF": 0
+		},
+	"\/index-solid.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index-solid.php",
+		"oF": 0
+		},
+	"\/index.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.php",
+		"oF": 0
+		},
+	"\/MAMP-PRO-Logo.png": {
+		"ft": 32768,
+		"iS": 5793,
+		"oA": 0,
+		"oAP": "\/MAMP-PRO-Logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/sftp-config.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/sftp-config-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 511296765,
+	"displayValue": "47-hats",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "meme-yesBaby"
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigFileHandlingType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"async-to-module-method": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"decorators-legacy": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"es2015-arrow-functions": {
+			"active": 0
+			},
+		"es2015-block-scoped-functions": {
+			"active": 0
+			},
+		"es2015-block-scoping": {
+			"active": 0
+			},
+		"es2015-classes": {
+			"active": 0
+			},
+		"es2015-computed-properties": {
+			"active": 0
+			},
+		"es2015-constants": {
+			"active": 0
+			},
+		"es2015-destructuring": {
+			"active": 0
+			},
+		"es2015-duplicate-keys": {
+			"active": 0
+			},
+		"es2015-for-of": {
+			"active": 0
+			},
+		"es2015-function-name": {
+			"active": 0
+			},
+		"es2015-literals": {
+			"active": 0
+			},
+		"es2015-modules-amd": {
+			"active": 0
+			},
+		"es2015-modules-commonjs": {
+			"active": 0
+			},
+		"es2015-modules-systemjs": {
+			"active": 0
+			},
+		"es2015-modules-umd": {
+			"active": 0
+			},
+		"es2015-object-super": {
+			"active": 0
+			},
+		"es2015-parameters": {
+			"active": 0
+			},
+		"es2015-shorthand-properties": {
+			"active": 0
+			},
+		"es2015-spread": {
+			"active": 0
+			},
+		"es2015-sticky-regex": {
+			"active": 0
+			},
+		"es2015-template-literals": {
+			"active": 0
+			},
+		"es2015-typeof-symbol": {
+			"active": 0
+			},
+		"es2015-unicode-regex": {
+			"active": 0
+			},
+		"es3-member-expression-literals": {
+			"active": 0
+			},
+		"es3-property-literals": {
+			"active": 0
+			},
+		"es5-property-mutators": {
+			"active": 0
+			},
+		"eval": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-extensions": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-comments": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"syntax-async-generators": {
+			"active": 0
+			},
+		"syntax-class-properties": {
+			"active": 0
+			},
+		"syntax-decorators": {
+			"active": 0
+			},
+		"syntax-do-expressions": {
+			"active": 0
+			},
+		"syntax-export-extensions": {
+			"active": 0
+			},
+		"syntax-flow": {
+			"active": 0
+			},
+		"syntax-function-bind": {
+			"active": 0
+			},
+		"syntax-function-sent": {
+			"active": 0
+			},
+		"syntax-jsx": {
+			"active": 0
+			},
+		"syntax-object-rest-spread": {
+			"active": 0
+			},
+		"undeclared-variables-check": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			}
+		},
+	"babelPresetType": 193,
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always'}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-around-directive": {
+			"active": 0,
+			"optionString": "{'before': 'always', 'after': 'always'}"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-after-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-before-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-catch-shadow": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 1,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': false}"
+			},
+		"no-self-compare": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', 'avoid-escape'"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
+			},
+		"require-yield": {
+			"active": 0,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"outputStyle": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsJSX": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "jsx",
+		"autoOutputPathReplace2": "js",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
+		"disableJavascript": 0,
+		"ieCompatibility": 1,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"jsxMode": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 2,
+		"noImplicitAny": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"sourceFolderName": "source",
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}
