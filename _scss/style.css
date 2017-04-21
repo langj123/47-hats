@@ -14,6 +14,10 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-text-size-adjust: none; }
 
+h2 {
+  line-height: 31px;
+  font-weight: 600; }
+
 p {
   font-family: 'Arvo', serif;
   color: #918580;
@@ -31,6 +35,7 @@ p {
       line-height: 22px; } }
 
 .sub-nav {
+  box-shadow: 0 2px 24px 0 rgba(0, 0, 0, 0.05);
   position: fixed;
   top: 87px;
   left: 0;
@@ -385,10 +390,13 @@ p {
 .dropshadow {
   background: white;
   box-shadow: 0 2.4vw 4.25vw -1vw rgba(100, 100, 100, 0.5); }
+  .dropshadow h2 {
+    margin-bottom: 0; }
   .dropshadow p {
     color: #A2A2A2;
     line-height: 30px;
-    font-size: 18px; }
+    font-size: 18px;
+    margin-top: 10px; }
     @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
       .dropshadow p {
         font-size: 14px;
@@ -7897,6 +7905,8 @@ a.bttn {
 .sub-product {
   width: 100%;
   height: 100%; }
+  .sub-product p {
+    margin-top: 19px; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .sub-product {
       height: auto; } }
@@ -7989,12 +7999,6 @@ a.bttn {
     #Slider .flex-direction-nav .flex-nav-next a {
       right: 20px;
       left: auto; }
-  @media screen and (max-width: 860px) {
-    .flex-direction-nav {
-      width: 100%;
-      height: 40vh;
-      padding: 5vw 0 0 0;
-      left: 0; } }
   .flex-direction-nav li {
     text-indent: -1000%; }
     .flex-direction-nav li.flex-nav-prev {
@@ -8021,6 +8025,12 @@ a.bttn {
       -moz-transform: translateY(-100%);
       -webkit-transform: translateY(-100%);
       transform: translateY(-100%); }
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        .flex-direction-nav li a {
+          top: 27.5%; } }
+      @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        .flex-direction-nav li a {
+          top: 27.5%; } }
       .flex-direction-nav li a:focus {
         outline: none; }
       .flex-direction-nav li a:before {
@@ -8364,7 +8374,7 @@ a.bttn {
       .products > li#Pink_Hat .col-3 a:hover, .sub-products > li#Pink_Hat .col-3 a:hover {
         color: #F7EBE4; }
       .products > li#Pink_Hat .col-3:after, .sub-products > li#Pink_Hat .col-3:after {
-        background-image: linear-gradient(-139deg, #F7EBE4 30%, #E6CDC1 76%); }
+        background-image: linear-gradient(-198deg, #FAF0F1 0%, #E6CED0 88%); }
       .products > li#Pink_Hat .feat.feat-1, .sub-products > li#Pink_Hat .feat.feat-1 {
         top: 83%;
         left: 50%; }
@@ -8480,13 +8490,14 @@ a.bttn {
     .products .col-3 h2, .sub-products .col-3 h2 {
       color: #222222;
       text-transform: uppercase;
-      font-weight: bold;
+      font-weight: 600;
       text-align: left;
       font-size: 36px;
+      line-height: 38px;
       margin: 0; }
       @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
         .products .col-3 h2, .sub-products .col-3 h2 {
-          font-size: 24px; } }
+          font-size: 26px; } }
     .products .col-3 a, .sub-products .col-3 a {
       text-decoration: none;
       color: #222222;
@@ -8499,7 +8510,8 @@ a.bttn {
       text-transform: uppercase;
       line-height: 20px;
       transition-property: background-color;
-      transition-duration: .3s; }
+      transition-duration: .3s;
+      font-weight: 500; }
       @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
         .products .col-3 a, .sub-products .col-3 a {
           font-size: 12px;

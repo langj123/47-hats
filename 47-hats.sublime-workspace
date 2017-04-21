@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
 				"swea",
 				"sweatsPro"
 			],
@@ -48,20 +60,12 @@
 				"margin-right"
 			],
 			[
-				"mar",
-				"margin-top"
-			],
-			[
 				"m",
 				"min-height"
 			],
 			[
 				"slide",
 				"slideshow"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"ba",
@@ -86,10 +90,6 @@
 			[
 				"tran",
 				"translateX"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"tra",
@@ -568,9 +568,13 @@
 	},
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/47-hats/_scss/style.scss",
-		"/Applications/MAMP/htdocs/47-hats/_javascript/actions-sm-gs.js",
 		"/Applications/MAMP/htdocs/47-hats/index.php",
+		"/Applications/MAMP/htdocs/47-hats/_img/47-classics.svg",
+		"/Applications/MAMP/htdocs/47-hats/_scss/style.scss",
+		"/Applications/MAMP/htdocs/47-hats/config.codekit",
+		"/Applications/MAMP/htdocs/47-hats/noir-scroll/js/actions-sm-gs.js",
+		"/Applications/MAMP/htdocs/47-hats/noir-scroll/index.php",
+		"/Applications/MAMP/htdocs/47-hats/_javascript/actions-sm-gs.js",
 		"/Applications/MAMP/htdocs/47-hats/_javascript/actions-solid-min.js",
 		"/Applications/MAMP/htdocs/47-hats/_javascript/actions-solid.js",
 		"/Applications/MAMP/htdocs/47-hats/_javascript/actions-sm-gs-OLD.js",
@@ -582,7 +586,6 @@
 		"/Applications/MAMP/htdocs/47-hats/_javascript/actions.js",
 		"/Applications/MAMP/htdocs/47-hats/_javascript/actions-gs.js",
 		"/Applications/MAMP/htdocs/47-hats/_javascript/scroll-probe.js",
-		"/Applications/MAMP/htdocs/47-hats/_img/47-classics.svg",
 		"/Applications/MAMP/htdocs/47-hats/includes/47-main-nav.php",
 		"/Applications/MAMP/htdocs/47-hats/includes/footer-47.php",
 		"/Applications/MAMP/htdocs/47-hats/_javascript/jquery.flexslider.js",
@@ -692,10 +695,7 @@
 		"/var/folders/7c/n_70hhnd7fx70dw_bzq4m18m0000gp/T/sublime-sftp-browse-1475524632/mapped/var/www/html/wp-config.php",
 		"/var/folders/7c/n_70hhnd7fx70dw_bzq4m18m0000gp/T/sublime-sftp-browse-1475523916/mapped/var/www/html/wp-config.php",
 		"/var/folders/7c/n_70hhnd7fx70dw_bzq4m18m0000gp/T/sublime-sftp-browse-1475523872/mapped/var/www/html/wp-config.php",
-		"/var/folders/7c/n_70hhnd7fx70dw_bzq4m18m0000gp/T/sublime-sftp-browse-1475523056/mapped/var/www/html/wp-config.php",
-		"/var/folders/7c/n_70hhnd7fx70dw_bzq4m18m0000gp/T/sublime-sftp-browse-1475523647/mapped/var/www/html/.htaccess",
-		"/var/folders/7c/n_70hhnd7fx70dw_bzq4m18m0000gp/T/sublime-sftp-browse-1475523528/mapped/var/www/html/.htaccess",
-		"/Applications/MAMP/htdocs/ics/.htaccess copy"
+		"/var/folders/7c/n_70hhnd7fx70dw_bzq4m18m0000gp/T/sublime-sftp-browse-1475523056/mapped/var/www/html/wp-config.php"
 	],
 	"find":
 	{
@@ -714,6 +714,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"flex-direction-nav",
+			"h2 {",
+			"h2 ",
+			"h2",
+			"sub-product",
 			"0.0000000000005",
 			"none",
 			"property",
@@ -836,12 +841,7 @@
 			"downfield-hood",
 			"292930",
 			"505769",
-			"scrimmage",
-			"hood",
-			"Scrimmage",
-			"hood",
-			"scrimmage",
-			"hood"
+			"scrimmage"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -912,6 +912,10 @@
 			[
 				"ind",
 				"index.php"
+			],
+			[
+				"sc",
+				"_scss/style.scss"
 			],
 			[
 				"in",
@@ -1416,10 +1420,6 @@
 			[
 				"heade",
 				"wp-content/themes/ebi/header.php"
-			],
-			[
-				"funtio",
-				"wp-content/themes/ebi/functions.php"
 			]
 		],
 		"width": 0.0
@@ -1444,6 +1444,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 354.0,
+	"side_bar_width": 214.0,
 	"status_bar_visible": true
 }

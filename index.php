@@ -2,7 +2,7 @@
 <head>
     <title>47 Brand Hats Demo</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Arvo|Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Montserrat:300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.shopify.com/s/files/1/0817/3919/t/21/assets/staging--coble.css?9454726553914938928">
     <link rel="stylesheet" type="text/css" href="https://cdn.shopify.com/s/files/1/0817/3919/t/21/assets/47-nav-home.scss.css?9454726553914938928">
     <link rel="stylesheet" type="text/css" href="_scss/style.css">
@@ -512,7 +512,7 @@
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
-                                    <img src="../_img/321877-HR-AF.png" alt="">
+                                    <img src="../_img/321876-HR-AF.png" alt="">
                                 </div>
                             </div>
                         </div><!-- .flex -->

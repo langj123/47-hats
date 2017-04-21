@@ -1,0 +1,64 @@
+/*
+Error: Invalid CSS after "...ing-left: $i + ": expected expression (e.g. 1px, bold), was "%;}"
+        on line 517 of /Applications/MAMP/htdocs/47-hats/_scss/style.scss
+
+512: }
+513: @for $i from 1 through 100 {
+514:   .z-push-#{$i} {
+515:   	position: relative;
+516:   	z-index: $i}
+517:   .pl-#{$i} { padding-left: $i + %;}
+518:   .pr-#{$i} { padding-right: $i + %;}
+519:   .pt-#{$i} { padding-top: $i + %;}
+520:   .pb-#{$i} { padding-bottom: $i + %;}
+521:   .pl-v#{$i} { padding-left: $i + vw;}
+522:   .pr-v#{$i} { padding-right: $i + vw;}
+
+Backtrace:
+/Applications/MAMP/htdocs/47-hats/_scss/style.scss:517
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1179:in `expected'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/lexer.rb:227:in `expected!'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:673:in `assert_expr'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:275:in `plus_or_minus'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:267:in `relational'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:267:in `eq_or_neq'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:267:in `and_expr'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:267:in `or_expr'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:462:in `space'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:408:in `interpolation'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:333:in `expr'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:671:in `assert_expr'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:63:in `parse'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1041:in `sass_script'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:894:in `value!'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:767:in `block in try_declaration'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1155:in `call'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1155:in `rethrow'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:780:in `try_declaration'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:709:in `declaration_or_ruleset'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:674:in `block_child'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:663:in `block_contents'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:655:in `block'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:724:in `declaration_or_ruleset'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:674:in `block_child'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:666:in `block_contents'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:655:in `block'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:287:in `for_directive'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:220:in `special_directive'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:195:in `directive'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:673:in `block_child'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:666:in `block_contents'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:123:in `stylesheet'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:39:in `parse'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:403:in `_to_tree'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:278:in `render'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:423:in `run'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Users/jacoblang/Downloads/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ing-left: $i + \": expected expression (e.g. 1px, bold), was \"%;}\"\A         on line 517 of /Applications/MAMP/htdocs/47-hats/_scss/style.scss\A \A 512: }\A 513: @for $i from 1 through 100 {\A 514:   .z-push-#{$i} {\A 515:   	position: relative;\A 516:   	z-index: $i}\A 517:   .pl-#{$i} { padding-left: $i + %;}\A 518:   .pr-#{$i} { padding-right: $i + %;}\A 519:   .pt-#{$i} { padding-top: $i + %;}\A 520:   .pb-#{$i} { padding-bottom: $i + %;}\A 521:   .pl-v#{$i} { padding-left: $i + vw;}\A 522:   .pr-v#{$i} { padding-right: $i + vw;}"; }
