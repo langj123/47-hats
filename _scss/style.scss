@@ -4,6 +4,15 @@ $m-large: 1200px;
 $m-med: 860px;
 $m-smll: 600px;
 
+
+body > header:first-of-type {
+	-moz-transition-property: top;
+  -webkit-transition-property: top;
+  transition-property: top;
+  -moz-transition-duration: .15s;
+  -webkit-transition-duration: .15s;
+  transition-duration: .15s;
+}
 .main-navigation .search input.search_input {
 	@media screen and (min-width: 769px) {
 		position: absolute;

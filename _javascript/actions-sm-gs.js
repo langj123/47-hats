@@ -101,7 +101,7 @@ $(document).ready(function(){
 				  	  view1.attr("data-current", obj.curImg + 1);
 
 				  	  var data = $(".view-" + (obj.curImg + 1)).find(".feat-cont");
-				 
+
 				  	  if (data.length > 0) {
 				  	  	var dClone = $(data).clone(true);
 				  	  	// do animations for feature points
@@ -390,12 +390,12 @@ $(document).ready(function(){
   			}, timeout);
 		});
 
-	}// end of mobile check 
+	}// end of mobile check
 	else if (isMobile == true) {
 		// do stuff of mobile
 		var headGal = $("#GalleryImgs");
 		TweenMax.set(mainNav, {y: -mainNav.outerHeight()});
-		// set header to 
+		// set header to
 		headGal.flexslider({
       			   	animation: "fade",
       			 	selector: ".image-cont",
@@ -421,21 +421,32 @@ $(document).ready(function(){
       			});
 	}
 
+	var uD = 0;
+
 	$(window).on("scroll", function(){
 			var wTop = $(window).scrollTop(),
-				mainH = mainNav.outerHeight();
+					mainH = mainNav.outerHeight();
 
-				if (wTop > mainH && isMobile == false) {
-					mainNav.css({"position": "relative"});
-					secNav.css({"top": 0});
-				} else if (wTop <= mainH && isMobile == false) {
-					mainNav.css({"position": "fixed"});
-					secNav.css({"top": mainNav.outerHeight()});
-				} else if (wTop > mainH && isMobile == true) {
-					TweenMax.to(mainNav, .3, {y: -mainNav.outerHeight()});
-				} else if (wTop <= mainH && isMobile == true) {
-					TweenMax.to(mainNav, .3, {y: 0});
-				}
+					if (wTop > mainH && isMobile == false) {
+						mainNav.css({"position": "relative"});
+						mainNav.css({"top": -mainNav.outerHeight()});
+						secNav.css({"top": 0});
+						if (wTop < uD) {
+							mainNav.css({"position": "fixed"});
+							mainNav.css({"top": 0});
+							secNav.css({"top": mainNav.outerHeight()});
+						}
+					} else if (wTop <= mainH && isMobile == false) {
+						mainNav.css({"position": "fixed"});
+						secNav.css({"top": mainNav.outerHeight()});
+					} else if (wTop > mainH && isMobile == true) {
+						TweenMax.to(mainNav, .3, {y: -mainNav.outerHeight()});
+					} else if (wTop <= mainH && isMobile == true) {
+						TweenMax.to(mainNav, .3, {y: 0});
+					}
+
+					uD = wTop;
+
 	});
 
   	function addScenes(newScenes) {
