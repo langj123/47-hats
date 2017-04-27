@@ -86,6 +86,95 @@
             </div>
         </div>
     </div>
+    <div class="content image-grid slide-gallery pt-5 pb-5 slider-360" id="Slider2">
+         <div class="col-9 remove-p-m">
+            <ul class="slider" data-slider="1">
+                <li class="warn-360">
+                    <img src="../_img/hat-360-95.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-96.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-97.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-98.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-99.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-0.png" alt="">
+                    <div class="desc">
+                         <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../_img/hat-360-1.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-2.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-3.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-4.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-5.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-6.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-7.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-8.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-9.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-10.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-11.png" alt="">
+                    <div class="desc">
+                         <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="../_img/hat-360-12.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-13.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-14.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-15.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-16.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-17.png" alt="">
+                </li>
+                <li>
+                    <img src="../_img/hat-360-18.png" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="col-4 slide-text" data-r-slider="1">
+            <div class="dropshadow pt-v2 pb-v2 pr-v4 pl-v4 mt-n-75 remove-m-m">
+                <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
+            </div>
+        </div>
+    </div>
     <div class="content-cont" id="HatsDisplay">
         <ul class="products">
             <li id="Pink_Hat" class="product" data-color="pink-hat">
@@ -481,6 +570,7 @@
     </div><!-- .content-wrapper -->
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="_javascript/jquery.mousewheel.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>

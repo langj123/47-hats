@@ -20,6 +20,7 @@ $(document).ready(function(){
 		prods = $(".product"),
 		logo = $("#Logo"),
 		altSlide = $("#Slider .slider"),
+		slide360 = $("#Slider2 .slider"),
 		// TweenMax can tween any property of any object. We use this object to cycle through the array
 		timeout = 50,
 		resizetimeout = null,
@@ -46,11 +47,44 @@ $(document).ready(function(){
 
 			if (totLi.length > 1) {
       			$(this).flexslider({
-      			   animation: "fade",
+      			   	animation: "fade",
       			 	selector: "li",
       			 	controlNav: true,
       			 	slideshow: true,
       			 	itemWidth: "100%"
+      			});
+      		}
+		});
+		// 360 slider
+		slide360.each(function(index) {
+			var totLi = $(this).find("li"),
+				par = $(this),
+				s = $(this).data("slider"),
+				rD = $('.slide-text').data("r-slider", s);
+
+			if (totLi.length > 1) {
+      			$(this).flexslider({
+      			   	animation: "fade",
+      			 	selector: "li",
+      			 	controlNav: false,
+      			 	directionNav: false,
+      			 	slideshow: false,
+      			 	itemWidth: "100%",
+      			 	animationSpeed: 0,
+      			 	mousewheel: true,
+      			 	animationLoop: true,
+      			 	before: function(slider){
+      			 		var desc = par.find(".flex-active-slide .desc"),
+      			 			fill = rD.find(".dropshadow");
+      			 		if (!par.hasClass("active")){
+      			 			par.addClass("active");
+      			 		}
+      			 		if (desc.length > 0) {
+      			 			//swap stuff
+      			 			var	copy = desc.clone(true);
+      			 				fill.html(copy);
+      			 		}
+      			 	}
       			});
       		}
 		});

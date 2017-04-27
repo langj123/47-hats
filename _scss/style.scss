@@ -287,7 +287,8 @@ p {
 			@media only screen
 				and (min-device-width : 320px)
 				and (max-device-width : 480px) {
-					font-size: 26px;
+					font-size: 21px;
+					line-height: 29px;
 					margin: 0 5vw 10px;
 					padding-bottom: 60%;
 			}
@@ -466,7 +467,7 @@ p {
 		}
 	}
 }
-#Slider {
+#Slider, #Slider2 {
 	position: relative;
 	background: radial-gradient(ellipse, #fff 0%, #F0F0F0 100%);
 	&.slide-gallery {
@@ -485,6 +486,46 @@ p {
 		margin: 0;
 		padding: 0;
 		list-style-type: none;
+	}
+	.flex-direction-nav a {
+		top: 50%;
+		-moz-transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+}
+.slider {
+	.desc {
+		display: none;
+	}
+}
+.slider-360 {
+	.slider.active {
+		li {
+			&.warn-360 {
+				&:after {
+					display: none;
+				}
+			}
+		}
+	}
+	li {
+		&.warn-360  {
+			&:after {
+				content: "";
+				display: block;
+				width: 145px;
+				height: 145px;
+				top: 50%;
+				left: 50%;
+				-moz-transform: translate(-50%, -50%);
+				-webkit-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+				border-radius: 100%;
+				position: absolute;
+				background: rgba(255, 255, 255, .4) url(../_img/360.svg) no-repeat center center / 98px;
+			}
+		}
 	}
 }
 .border-cont {
@@ -594,6 +635,9 @@ p {
 	}
 }
 .dropshadow {
+	&.hide {
+		display: none;
+	}
 	background: white;
 	box-shadow: 0 2.4vw 4.25vw -1vw rgba(100, 100, 100, .5);
 	h2 {
@@ -1239,7 +1283,7 @@ a.bttn {
 }
 .flex-direction-nav {
 	list-style-type: none;
-	#Slider & {
+	#Slider &, #Slider2 & {
 		width: 100%;
     	left: 0;
     	right: 0;
@@ -1322,7 +1366,7 @@ a.bttn {
 	bottom: 5%;
 	right: 5vw;
 	z-index: 11;
-	#Slider & {
+	#Slider &, #Slider2 {
 		position: relative;
 		float: right;
 		clear: left;
