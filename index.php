@@ -90,87 +90,89 @@
          <div class="col-9 remove-p-m">
             <ul class="slider" data-slider="1">
                 <li class="warn-360">
-                    <img src="../_img/hat-360-95.png" alt="">
-                </li>
-                <li>
-                    <img src="../_img/hat-360-96.png" alt="">
-                </li>
-                <li>
-                    <img src="../_img/hat-360-97.png" alt="">
-                </li>
-                <li>
-                    <img src="../_img/hat-360-98.png" alt="">
-                </li>
-                <li>
-                    <img src="../_img/hat-360-99.png" alt="">
-                </li>
-                <li>
-                    <img src="../_img/hat-360-0.png" alt="">
+                    <img src="../_img/black-hat-1.jpg" alt="">
                     <div class="desc">
                          <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/hat-360-1.png" alt="">
+                    <img src="../_img/black-hat-2.jpg" alt="">
                 </li>
                 <li>
-                    <img src="../_img/hat-360-2.png" alt="">
+                    <img src="../_img/black-hat-3.jpg" alt="">
                 </li>
                 <li>
-                    <img src="../_img/hat-360-3.png" alt="">
+                    <img src="../_img/black-hat-4.jpg" alt="">
                 </li>
                 <li>
-                    <img src="../_img/hat-360-4.png" alt="">
+                    <img src="../_img/black-hat-5.jpg" alt="">
                 </li>
                 <li>
-                    <img src="../_img/hat-360-5.png" alt="">
+                    <img src="../_img/black-hat-6.jpg" alt="">
                 </li>
                 <li>
-                    <img src="../_img/hat-360-6.png" alt="">
+                    <img src="../_img/black-hat-7.jpg" alt="">
                 </li>
                 <li>
-                    <img src="../_img/hat-360-7.png" alt="">
+                    <img src="../_img/black-hat-8.jpg" alt="">
                 </li>
                 <li>
-                    <img src="../_img/hat-360-8.png" alt="">
+                    <img src="../_img/black-hat-9.jpg" alt="">
                 </li>
                 <li>
-                    <img src="../_img/hat-360-9.png" alt="">
+                    <img src="../_img/black-hat-10.jpg" alt="">
                 </li>
                 <li>
-                    <img src="../_img/hat-360-10.png" alt="">
+                    <img src="../_img/black-hat-11.jpg" alt="">
                 </li>
                 <li>
-                    <img src="../_img/hat-360-11.png" alt="">
+                    <img src="../_img/black-hat-12.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../_img/black-hat-13.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../_img/black-hat-14.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../_img/black-hat-15.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../_img/black-hat-16.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../_img/black-hat-17.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../_img/black-hat-18.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../_img/black-hat-19.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../_img/black-hat-20.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../_img/black-hat-21.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../_img/black-hat-22.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../_img/black-hat-23.jpg" alt="">
+                </li>
+                <li>
+                    <img src="../_img/black-hat-24.jpg" alt="">
                     <div class="desc">
                          <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
                     </div>
                 </li>
-                <li>
-                    <img src="../_img/hat-360-12.png" alt="">
-                </li>
-                <li>
-                    <img src="../_img/hat-360-13.png" alt="">
-                </li>
-                <li>
-                    <img src="../_img/hat-360-14.png" alt="">
-                </li>
-                <li>
-                    <img src="../_img/hat-360-15.png" alt="">
-                </li>
-                <li>
-                    <img src="../_img/hat-360-16.png" alt="">
-                </li>
-                <li>
-                    <img src="../_img/hat-360-17.png" alt="">
-                </li>
-                <li>
-                    <img src="../_img/hat-360-18.png" alt="">
-                </li>
             </ul>
         </div>
+        <div class="col-3"></div>
+        <div class="col-8"></div>
         <div class="col-4 slide-text" data-r-slider="1">
-            <div class="dropshadow pt-v2 pb-v2 pr-v4 pl-v4 mt-n-75 remove-m-m">
+            <div class="dropshadow pt-v2 pb-v2 pr-v4 pl-v4 mt-n-70 remove-m-m">
                 <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
             </div>
         </div>
@@ -376,13 +378,12 @@
             </ul>
         </div>
         <div class="col-4">
-            <div class="dropshadow pt-v2 pb-v2 pr-v4 pl-v4 mt-n-75 remove-m-m">
+            <div class="dropshadow pt-v2 pb-v2 pr-v4 pl-v4 mt-n-70 remove-m-m">
                 <h2>Premium Look &amp; Feel</h2>
                 <p>Our apparel has a precise balance of drape and stability for excellent comfort and fit.</p>
             </div>
         </div>
     </div>
-
     <div class="content-cont" id="SweatsDisplay">
         <ul class="products">
             <li id="Product1" class="product" data-color="gold-shirt">

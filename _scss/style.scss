@@ -467,6 +467,9 @@ p {
 		}
 	}
 }
+#Slider .col-9 {
+	padding-left: 25%;
+}
 #Slider, #Slider2 {
 	position: relative;
 	background: radial-gradient(ellipse, #fff 0%, #F0F0F0 100%);
@@ -476,9 +479,6 @@ p {
 	.col-4 {
 		z-index: 2;
 		left: 0;
-	}
-	.col-9 {
-		padding-left: 25%;
 	}
 	.slider {
 		position: relative;

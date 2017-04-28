@@ -363,6 +363,9 @@ p {
         .main-prod-display .gallery li img {
           width: 75%; } }
 
+#Slider .col-9 {
+  padding-left: 25%; }
+
 #Slider, #Slider2 {
   position: relative;
   background: radial-gradient(ellipse, #fff 0%, #F0F0F0 100%); }
@@ -371,8 +374,6 @@ p {
   #Slider .col-4, #Slider2 .col-4 {
     z-index: 2;
     left: 0; }
-  #Slider .col-9, #Slider2 .col-9 {
-    padding-left: 25%; }
   #Slider .slider, #Slider2 .slider {
     position: relative;
     overflow: hidden;
