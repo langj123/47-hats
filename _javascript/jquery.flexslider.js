@@ -110,9 +110,17 @@
         // MOUSEWHEEL:
         if (slider.vars.mousewheel) {
           slider.bind('mousewheel', function(event, delta, deltaX, deltaY) {
-            event.preventDefault();
-            var target = (delta < 0) ? slider.getTarget('next') : slider.getTarget('prev');
-            slider.flexAnimate(target, slider.vars.pauseOnAction);
+              event.preventDefault();
+              var target = false;
+              // var target = (delta < 0) ? slider.getTarget('next') : slider.getTarget('prev');
+              if (delta < -4) {
+                target = slider.getTarget('next');
+                slider.flexAnimate(target, slider.vars.pauseOnAction);
+              } else if (delta > 4) {
+                target = slider.getTarget('prev');
+                slider.flexAnimate(target, slider.vars.pauseOnAction);
+              }
+              // slider.flexAnimate(target, slider.vars.pauseOnAction);
           });
         }
 
@@ -846,6 +854,7 @@
     };
     slider.getTarget = function(dir) {
       slider.direction = dir;
+
       if (dir === "next") {
         return (slider.currentSlide === slider.last) ? 0 : slider.currentSlide + 1;
       } else {

@@ -213,12 +213,13 @@ p {
       height: auto; } }
   .main-prod-display #Logo {
     position: relative;
-    padding: 10% 66vw 10% 5vw; }
+    padding: 10% 70vw 10% 5vw; }
     .main-prod-display #Logo h1 {
       color: #222222;
-      font-size: 28px;
+      font-size: 26px;
       line-height: 37px;
-      margin-top: 40px; }
+      margin-top: 40px;
+      text-shadow: 1px 0 10px white; }
       @media screen and (max-width: 600px) {
         .main-prod-display #Logo h1 {
           font-size: 26px;
@@ -392,9 +393,26 @@ p {
 .slider-360 .slider.active li.warn-360:after {
   display: none; }
 
+.slider-360 .col-9 {
+  position: relative; }
+
+.slider-360 .click-activate {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  cursor: pointer; }
+
 .slider-360 li.warn-360:after {
-  content: "";
+  content: "Click to Activate";
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
   display: block;
+  color: white;
   width: 145px;
   height: 145px;
   top: 50%;

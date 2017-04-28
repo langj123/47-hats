@@ -168,6 +168,7 @@
                     </div>
                 </li>
             </ul>
+            <div class="click-activate"></div>
         </div>
         <div class="col-3"></div>
         <div class="col-8"></div>
@@ -459,6 +460,20 @@
                             <div class="col-9">
                                 <div class="gallery">
                                     <img src="../_img/321887-HR-AF.png" alt="">
+                                </div>
+                            </div>
+                        </div><!-- .flex -->
+                    </div><!-- .sub-product -->
+                    <div class="sub-product" data-color="downfield-hood">
+                        <div class="flex">
+                            <div class="col-3">
+                                <h2>Downfield Hood</h2>
+                                <p>100% ring-spun combed cotton French Terry is finely looped and constructed to feel lightweight and look high-end –– featured in a myriad of apparel silhouettes.</p>
+                                <a href="https://www.47brand.com/collections/47-classics-apparel">Shop Now</a>
+                            </div>
+                            <div class="col-9">
+                                <div class="gallery">
+                                    <img src="../_img/322034-HR-AF.png" alt="">
                                 </div>
                             </div>
                         </div><!-- .flex -->

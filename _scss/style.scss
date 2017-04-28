@@ -274,12 +274,13 @@ p {
 	}
 	#Logo {
 		position: relative;
-		padding: 10% 66vw 10% 5vw;
+		padding: 10% 70vw 10% 5vw;
 		h1 {
 			color: #222222;
-			font-size: 28px;
+			font-size: 26px;
 			line-height: 37px;
 			margin-top: 40px;
+			text-shadow: 1px 0 10px white;
 			@media screen and (max-width: $m-smll) {
 				font-size: 26px;
 				margin: 0 5vw 10px;
@@ -509,11 +510,28 @@ p {
 			}
 		}
 	}
+	.col-9 {
+		position: relative;
+	}
+	.click-activate {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: transparent;
+		top: 0;
+		left: 0;
+		z-index: 999;
+		cursor: pointer;
+	}
 	li {
 		&.warn-360  {
 			&:after {
-				content: "";
+				content: "Click to Activate";
+				font-size: 12px;
+				text-transform: uppercase;
+				text-align: center;
 				display: block;
+				color: white;
 				width: 145px;
 				height: 145px;
 				top: 50%;

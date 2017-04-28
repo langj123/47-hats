@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"te",
+				"text-transform"
+			],
+			[
+				"get",
+				"getTarget"
+			],
+			[
+				"p",
+				"padding-left"
+			],
+			[
 				"translate",
 				"translateY"
 			],
@@ -118,10 +130,6 @@
 			[
 				"tra",
 				"translateY"
-			],
-			[
-				"te",
-				"text-align"
 			],
 			[
 				"border",
@@ -488,10 +496,6 @@
 				"get_home_url"
 			],
 			[
-				"p",
-				"position"
-			],
-			[
 				"get_p",
 				"get_permalink"
 			],
@@ -510,10 +514,6 @@
 			[
 				"stop",
 				"stopPropagation()	Event"
-			],
-			[
-				"getEleme",
-				"getElementsByTagName(name)	Element"
 			]
 		]
 	},
@@ -568,12 +568,13 @@
 	},
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/47-hats/_javascript/actions-sm-gs.js",
+		"/Applications/MAMP/htdocs/47-hats/_javascript/jquery.flexslider.js",
 		"/Applications/MAMP/htdocs/47-hats/index.php",
+		"/Applications/MAMP/htdocs/47-hats/_javascript/actions-sm-gs.js",
 		"/Applications/MAMP/htdocs/47-hats/_scss/style.scss",
+		"/Applications/MAMP/htdocs/47-hats/index-360.php",
 		"/Applications/MAMP/htdocs/47-hats/_img/360.svg",
 		"/Applications/MAMP/htdocs/47-hats/index-OLD.php",
-		"/Applications/MAMP/htdocs/47-hats/index-360.php",
 		"/Applications/MAMP/htdocs/47-hats/_javascript/actions-sm-gs-360.js",
 		"/Applications/MAMP/htdocs/47-hats/_img/SS17_Lifestyle_D1_1656.jpg",
 		"/Applications/MAMP/htdocs/47-hats/_img/321841-HR-AF.png",
@@ -590,7 +591,6 @@
 		"/Applications/MAMP/htdocs/47-hats/_img/47-classics.svg",
 		"/Applications/MAMP/htdocs/47-hats/includes/47-main-nav.php",
 		"/Applications/MAMP/htdocs/47-hats/includes/footer-47.php",
-		"/Applications/MAMP/htdocs/47-hats/_javascript/jquery.flexslider.js",
 		"/Applications/MAMP/htdocs/47-hats/index-solid.php",
 		"/Applications/MAMP/htdocs/47-hats/_javascript/sample.html",
 		"/Applications/MAMP/htdocs/47-hats/_javascript/actions-gs-min.js",
@@ -714,6 +714,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mousewheel",
+			"Downfield",
+			"getTarget",
+			"slider.getTarget",
+			"getcurren",
+			"getCurrentSlide",
+			"getTarget",
+			"slider.vars.after",
+			"startedMouseWheel",
+			"mousewheel",
+			"main-prod-display",
+			"#slider2",
 			"slide",
 			"animatingTo",
 			"transformY",
@@ -829,19 +841,7 @@
 			"none",
 			"display",
 			"width",
-			"translate",
-			".content",
-			".flex",
-			"gallery",
-			"sub-product",
-			".flex",
-			"opacity",
-			"first",
-			"pink",
-			".flex",
-			"col-3",
-			".flex",
-			"SweatsDisplay"
+			"translate"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -910,10 +910,6 @@
 		"selected_items":
 		[
 			[
-				"in",
-				"index.php"
-			],
-			[
 				"_sty",
 				"_scss/style.scss"
 			],
@@ -922,11 +918,23 @@
 				"index.php"
 			],
 			[
-				"s",
+				"inde",
+				"index-360.php"
+			],
+			[
+				"_st",
 				"_scss/style.scss"
 			],
 			[
+				"in",
+				"index.php"
+			],
+			[
 				"_s",
+				"_scss/style.scss"
+			],
+			[
+				"s",
 				"_scss/style.scss"
 			],
 			[
@@ -1412,14 +1420,6 @@
 			[
 				"ebi-scr",
 				"wp-content/themes/ebi/js/ebi-scripts.js"
-			],
-			[
-				"heade",
-				"wp-content/themes/ebi/header.php"
-			],
-			[
-				"funtio",
-				"wp-content/themes/ebi/functions.php"
 			]
 		],
 		"width": 0.0
