@@ -568,8 +568,8 @@
 	},
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/47-hats/_javascript/jquery.flexslider.js",
 		"/Applications/MAMP/htdocs/47-hats/index.php",
+		"/Applications/MAMP/htdocs/47-hats/_javascript/jquery.flexslider.js",
 		"/Applications/MAMP/htdocs/47-hats/_javascript/actions-sm-gs.js",
 		"/Applications/MAMP/htdocs/47-hats/_scss/style.scss",
 		"/Applications/MAMP/htdocs/47-hats/index-360.php",
@@ -703,7 +703,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			""

@@ -12,7 +12,7 @@
     <nav class="sub-nav">
         <h1 class="nav-header">47 Classics</h1>
         <ul>
-            <li><a href="#MainHeader">Headwear</a></li>
+            <li><a href="#ImgGrid1">Headwear</a></li>
             <li><a href="#Slider">Apparel</a></li>
             <li class="flex-end"><a href="#">Shop Classics</a></li>
         </ul>
@@ -97,69 +97,135 @@
                 </li>
                 <li>
                     <img src="../_img/black-hat-2.jpg" alt="">
+                    <div class="desc">
+                         <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-3.jpg" alt="">
+                    <div class="desc">
+                         <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-4.jpg" alt="">
+                    <div class="desc">
+                         <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-5.jpg" alt="">
+                    <div class="desc">
+                         <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-6.jpg" alt="">
+                    <div class="desc">
+                         <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-7.jpg" alt="">
+                    <div class="desc">
+                         <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-8.jpg" alt="">
+                    <div class="desc">
+                         <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-9.jpg" alt="">
+                    <div class="desc">
+                         <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-10.jpg" alt="">
+                    <div class="desc">
+                         <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-11.jpg" alt="">
+                    <div class="desc">
+                         <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-12.jpg" alt="">
+                    <div class="desc">
+                         <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-13.jpg" alt="">
+                    <div class="desc">
+                         <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-14.jpg" alt="">
+                    <div class="desc">
+                         <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-15.jpg" alt="">
+                    <div class="desc">
+                         <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-16.jpg" alt="">
+                    <div class="desc">
+                         <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-17.jpg" alt="">
+                    <div class="desc">
+                         <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-18.jpg" alt="">
+                    <div class="desc">
+                         <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-19.jpg" alt="">
+                    <div class="desc">
+                         <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-20.jpg" alt="">
+                    <div class="desc">
+                         <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-21.jpg" alt="">
+                    <div class="desc">
+                         <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-22.jpg" alt="">
+                    <div class="desc">
+                         <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-23.jpg" alt="">
+                    <div class="desc">
+                         <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
+                    </div>
                 </li>
                 <li>
                     <img src="../_img/black-hat-24.jpg" alt="">
