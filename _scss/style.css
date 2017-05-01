@@ -215,28 +215,50 @@ p {
     position: relative;
     padding: 10% 70vw 10% 5vw; }
     .main-prod-display #Logo h1 {
+      background: url(../_img/classics-logo.svg) no-repeat left center/100%;
+      text-indent: 0;
+      margin: 0;
+      width: 202px;
+      height: 248px;
+      text-indent: -10000px; }
+      @media screen and (max-width: 600px) {
+        .main-prod-display #Logo h1 {
+          width: 100px;
+          margin: 0 auto; } }
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+        .main-prod-display #Logo h1 {
+          width: 73px;
+          height: 160px; } }
+      @media screen and (min-width: 601px) and (max-width: 860px) {
+        .main-prod-display #Logo h1 {
+          width: 120px;
+          margin: 0 auto; } }
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+        .main-prod-display #Logo h1 {
+          margin: 15px 0; } }
+    .main-prod-display #Logo h2 {
       color: #222222;
       font-size: 26px;
       line-height: 37px;
       margin-top: 40px;
       text-shadow: 1px 0 10px white; }
       @media screen and (max-width: 600px) {
-        .main-prod-display #Logo h1 {
+        .main-prod-display #Logo h2 {
           font-size: 26px;
           margin: 0 5vw 10px; } }
       @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-        .main-prod-display #Logo h1 {
+        .main-prod-display #Logo h2 {
           font-size: 21px;
           line-height: 29px;
           margin: 0 5vw 10px;
           padding-bottom: 60%; } }
       @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
-        .main-prod-display #Logo h1 {
+        .main-prod-display #Logo h2 {
           padding-bottom: 0;
           font-size: 23px;
           margin: 0 0 10px; } }
       @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-        .main-prod-display #Logo h1 {
+        .main-prod-display #Logo h2 {
           font-size: 26px;
           margin: 0 5vw 10px;
           padding-bottom: 60%; } }

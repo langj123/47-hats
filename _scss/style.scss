@@ -276,6 +276,34 @@ p {
 		position: relative;
 		padding: 10% 70vw 10% 5vw;
 		h1 {
+			background: url(../_img/classics-logo.svg) no-repeat left center / 100%;
+			text-indent: 0;
+			margin: 0;
+			width: 202px;
+			height: 248px;
+			text-indent: -10000px;
+			@media screen and (max-width: $m-smll) {
+				width: 100px;
+				margin: 0 auto;
+			}
+			@media only screen
+				and (min-device-width : 320px)
+				and (max-device-width : 480px) {
+					width: 73px;
+					height: 160px;
+			}
+			@media screen and (min-width: $m-smll + 1px) and (max-width: $m-med) {
+				width: 120px;
+				margin: 0 auto;
+			}
+			@media only screen
+				and (min-device-width : 320px)
+				and (max-device-width : 480px)
+				and (orientation : landscape) {
+					margin: 15px 0;
+			}
+		}
+		h2 {
 			color: #222222;
 			font-size: 26px;
 			line-height: 37px;
