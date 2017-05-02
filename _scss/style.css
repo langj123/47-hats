@@ -530,7 +530,8 @@ p {
   .dropshadow.hide {
     display: none; }
   .dropshadow h2 {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    text-transform: uppercase; }
   .dropshadow p {
     color: #A2A2A2;
     line-height: 30px;
@@ -8092,9 +8093,9 @@ a.bttn {
     background: radial-gradient(ellipse farthest-corner at 50% 1px, #5F5E5A 0%, #0C0C0C 100%); }
   .sub-product[data-color="red-hat"] {
     background: radial-gradient(ellipse farthest-corner at 50% 1px, #C3354B 0%, #4B1015 100%); }
-  .sub-product[data-color="borderland-hat"] {
-    background: radial-gradient(ellipse farthest-corner at 50% 1px, #8B9CB0 0%, #525F74 100%); }
   .sub-product[data-color="encoder-hat"] {
+    background: radial-gradient(ellipse farthest-corner at 50% 1px, #8B9CB0 0%, #525F74 100%); }
+  .sub-product[data-color="borderland-hat"] {
     background: radial-gradient(ellipse farthest-corner at 50% 1px, #9BA78D 0%, #6D755E 100%); }
   .sub-product[data-color="stoneham-hat"] {
     background: radial-gradient(ellipse farthest-corner at 50% 1px, #999AA7 0%, #5A5865 100%); }
@@ -8355,6 +8356,16 @@ a.bttn {
           background: white; }
       .products > li#Product1 .sub-product[data-color="henley-scrum"] .col-3:after, .sub-products > li#Product1 .sub-product[data-color="henley-scrum"] .col-3:after {
         background: linear-gradient(-157deg, #8A837B 0%, #2B2B27 100%); }
+      .products > li#Product1 .sub-product[data-color="downfield-hood"] .col-3 p, .products > li#Product1 .sub-product[data-color="downfield-hood"] .col-3 h2, .sub-products > li#Product1 .sub-product[data-color="downfield-hood"] .col-3 p, .sub-products > li#Product1 .sub-product[data-color="downfield-hood"] .col-3 h2 {
+        color: black; }
+      .products > li#Product1 .sub-product[data-color="downfield-hood"] .col-3 a, .sub-products > li#Product1 .sub-product[data-color="downfield-hood"] .col-3 a {
+        color: black;
+        border-color: black; }
+        .products > li#Product1 .sub-product[data-color="downfield-hood"] .col-3 a:hover, .sub-products > li#Product1 .sub-product[data-color="downfield-hood"] .col-3 a:hover {
+          color: white;
+          background: black; }
+      .products > li#Product1 .sub-product[data-color="downfield-hood"] .col-3:after, .sub-products > li#Product1 .sub-product[data-color="downfield-hood"] .col-3:after {
+        background: linear-gradient(-157deg, #F5F5F5 0%, #BDBDBD 100%); }
     .products > li#Product2, .sub-products > li#Product2 {
       z-index: 4; }
       .products > li#Product2 .sub-product[data-color="scrimmage-hood"] .col-3 p, .products > li#Product2 .sub-product[data-color="scrimmage-hood"] .col-3 h2, .sub-products > li#Product2 .sub-product[data-color="scrimmage-hood"] .col-3 p, .sub-products > li#Product2 .sub-product[data-color="scrimmage-hood"] .col-3 h2 {
@@ -8407,16 +8418,6 @@ a.bttn {
           background: #222222; }
       .products > li#Product2 .sub-product[data-color="gold-shirt"] .col-3:after, .sub-products > li#Product2 .sub-product[data-color="gold-shirt"] .col-3:after {
         background: linear-gradient(-157deg, #FAF4E6 0%, #E1D5BC 100%); }
-      .products > li#Product2 .sub-product[data-color="downfield-hood"] .col-3 p, .products > li#Product2 .sub-product[data-color="downfield-hood"] .col-3 h2, .sub-products > li#Product2 .sub-product[data-color="downfield-hood"] .col-3 p, .sub-products > li#Product2 .sub-product[data-color="downfield-hood"] .col-3 h2 {
-        color: black; }
-      .products > li#Product2 .sub-product[data-color="downfield-hood"] .col-3 a, .sub-products > li#Product2 .sub-product[data-color="downfield-hood"] .col-3 a {
-        color: black;
-        border-color: black; }
-        .products > li#Product2 .sub-product[data-color="downfield-hood"] .col-3 a:hover, .sub-products > li#Product2 .sub-product[data-color="downfield-hood"] .col-3 a:hover {
-          color: white;
-          background: black; }
-      .products > li#Product2 .sub-product[data-color="downfield-hood"] .col-3:after, .sub-products > li#Product2 .sub-product[data-color="downfield-hood"] .col-3:after {
-        background: linear-gradient(-157deg, #F5F5F5 0%, #BDBDBD 100%); }
       .products > li#Product2 .sub-product[data-color="powerplay-hood"] .col-3 p, .products > li#Product2 .sub-product[data-color="powerplay-hood"] .col-3 h2, .products > li#Product2 .sub-product[data-color="baserunner-crew"] .col-3 p, .products > li#Product2 .sub-product[data-color="baserunner-crew"] .col-3 h2, .sub-products > li#Product2 .sub-product[data-color="powerplay-hood"] .col-3 p, .sub-products > li#Product2 .sub-product[data-color="powerplay-hood"] .col-3 h2, .sub-products > li#Product2 .sub-product[data-color="baserunner-crew"] .col-3 p, .sub-products > li#Product2 .sub-product[data-color="baserunner-crew"] .col-3 h2 {
         color: black; }
       .products > li#Product2 .sub-product[data-color="powerplay-hood"] .col-3 a, .products > li#Product2 .sub-product[data-color="baserunner-crew"] .col-3 a, .sub-products > li#Product2 .sub-product[data-color="powerplay-hood"] .col-3 a, .sub-products > li#Product2 .sub-product[data-color="baserunner-crew"] .col-3 a {
@@ -8536,25 +8537,25 @@ a.bttn {
           background: white; }
       .products > li#Pink_Hat .sub-product[data-color="red-hat"] .col-3:after, .sub-products > li#Pink_Hat .sub-product[data-color="red-hat"] .col-3:after {
         background-image: linear-gradient(-157deg, #C3354B 3%, #4B1015 100%); }
-      .products > li#Pink_Hat .sub-product[data-color="borderland-hat"] .col-3 p, .products > li#Pink_Hat .sub-product[data-color="borderland-hat"] .col-3 h2, .sub-products > li#Pink_Hat .sub-product[data-color="borderland-hat"] .col-3 p, .sub-products > li#Pink_Hat .sub-product[data-color="borderland-hat"] .col-3 h2 {
-        color: white; }
-      .products > li#Pink_Hat .sub-product[data-color="borderland-hat"] .col-3 a, .sub-products > li#Pink_Hat .sub-product[data-color="borderland-hat"] .col-3 a {
-        color: white;
-        border-color: white; }
-        .products > li#Pink_Hat .sub-product[data-color="borderland-hat"] .col-3 a:hover, .sub-products > li#Pink_Hat .sub-product[data-color="borderland-hat"] .col-3 a:hover {
-          color: #525F74;
-          background: white; }
-      .products > li#Pink_Hat .sub-product[data-color="borderland-hat"] .col-3:after, .sub-products > li#Pink_Hat .sub-product[data-color="borderland-hat"] .col-3:after {
-        background-image: linear-gradient(-157deg, #8B9CB0 3%, #525F74 100%); }
       .products > li#Pink_Hat .sub-product[data-color="encoder-hat"] .col-3 p, .products > li#Pink_Hat .sub-product[data-color="encoder-hat"] .col-3 h2, .sub-products > li#Pink_Hat .sub-product[data-color="encoder-hat"] .col-3 p, .sub-products > li#Pink_Hat .sub-product[data-color="encoder-hat"] .col-3 h2 {
         color: white; }
       .products > li#Pink_Hat .sub-product[data-color="encoder-hat"] .col-3 a, .sub-products > li#Pink_Hat .sub-product[data-color="encoder-hat"] .col-3 a {
         color: white;
         border-color: white; }
         .products > li#Pink_Hat .sub-product[data-color="encoder-hat"] .col-3 a:hover, .sub-products > li#Pink_Hat .sub-product[data-color="encoder-hat"] .col-3 a:hover {
-          color: #6D755E;
+          color: #525F74;
           background: white; }
       .products > li#Pink_Hat .sub-product[data-color="encoder-hat"] .col-3:after, .sub-products > li#Pink_Hat .sub-product[data-color="encoder-hat"] .col-3:after {
+        background-image: linear-gradient(-157deg, #8B9CB0 3%, #525F74 100%); }
+      .products > li#Pink_Hat .sub-product[data-color="borderland-hat"] .col-3 p, .products > li#Pink_Hat .sub-product[data-color="borderland-hat"] .col-3 h2, .sub-products > li#Pink_Hat .sub-product[data-color="borderland-hat"] .col-3 p, .sub-products > li#Pink_Hat .sub-product[data-color="borderland-hat"] .col-3 h2 {
+        color: white; }
+      .products > li#Pink_Hat .sub-product[data-color="borderland-hat"] .col-3 a, .sub-products > li#Pink_Hat .sub-product[data-color="borderland-hat"] .col-3 a {
+        color: white;
+        border-color: white; }
+        .products > li#Pink_Hat .sub-product[data-color="borderland-hat"] .col-3 a:hover, .sub-products > li#Pink_Hat .sub-product[data-color="borderland-hat"] .col-3 a:hover {
+          color: #6D755E;
+          background: white; }
+      .products > li#Pink_Hat .sub-product[data-color="borderland-hat"] .col-3:after, .sub-products > li#Pink_Hat .sub-product[data-color="borderland-hat"] .col-3:after {
         background-image: linear-gradient(-157deg, #9BA78D 3%, #6D755E 100%); }
       .products > li#Pink_Hat .sub-product[data-color="stoneham-hat"] .col-3 p, .products > li#Pink_Hat .sub-product[data-color="stoneham-hat"] .col-3 h2, .sub-products > li#Pink_Hat .sub-product[data-color="stoneham-hat"] .col-3 p, .sub-products > li#Pink_Hat .sub-product[data-color="stoneham-hat"] .col-3 h2 {
         color: white; }

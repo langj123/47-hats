@@ -5,7 +5,7 @@
 		[
 			[
 				"te",
-				"text-indent"
+				"text-transform"
 			],
 			[
 				"get",
@@ -523,7 +523,15 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 44044,
+				"buffer_size": 43979,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_scss/style.scss",
+			"settings":
+			{
+				"buffer_size": 48470,
 				"line_ending": "Unix"
 			}
 		}
@@ -576,9 +584,9 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/47-hats/index.php",
 		"/Applications/MAMP/htdocs/47-hats/_scss/style.scss",
 		"/Applications/MAMP/htdocs/47-hats/_img/classics-logo.svg",
-		"/Applications/MAMP/htdocs/47-hats/index.php",
 		"/Applications/MAMP/htdocs/47-hats/_javascript/jquery.flexslider.js",
 		"/Applications/MAMP/htdocs/47-hats/_javascript/actions-sm-gs.js",
 		"/Applications/MAMP/htdocs/47-hats/index-360.php",
@@ -711,7 +719,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 			""
@@ -722,6 +730,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Cleanup",
+			"encoder",
+			"borderland",
+			"encoder",
+			"borderland",
+			"encoder",
+			"borderland",
+			"encoder",
+			"borderland",
+			"https://www.47brand.com/collections/47-classics",
+			"https://www.47brand.com/collections/47-classics-apparel",
+			"https://www.47brand.com/collections/47-classics-47-captain",
+			"https://www.47brand.com/collections/47-classics-47-mvp",
+			"https://www.47brand.com/collections/47-classics-47-franchise",
+			"classics",
+			"https://www.47brand.com/collections/47-classics-47-clean-up",
+			"https://www.47brand.com/collections/47-classics-1",
 			"shop classics",
 			"cover",
 			"mousewheel",
@@ -832,24 +857,7 @@
 			"relative",
 			"header",
 			"main-prod-display",
-			"false",
-			"slider",
-			"main-prod-display",
-			"slider",
-			"main-prod-display",
-			"100",
-			"block",
-			"inherit",
-			"slider",
-			"inherit",
-			"gallery-imgs",
-			"transparent",
-			".slider",
-			"main-prod-display",
-			"320px",
-			"margin",
-			"none",
-			"display"
+			"false"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -867,6 +875,7 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -874,15 +883,27 @@
 					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 44044,
+						"buffer_size": 43979,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								950,
-								963
+								11053,
+								11053
+							],
+							[
+								11843,
+								11843
+							],
+							[
+								12650,
+								12650
+							],
+							[
+								13437,
+								13437
 							]
 						],
 						"settings":
@@ -985,7 +1006,127 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3906.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_scss/style.scss",
+					"settings":
+					{
+						"buffer_size": 48470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38060,
+								38060
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"devel": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": "load-save",
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 27505.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1041,6 +1182,10 @@
 			[
 				"_s",
 				"_scss/style.scss"
+			],
+			[
+				"i",
+				"index.php"
 			],
 			[
 				"ind",
@@ -1545,10 +1690,6 @@
 			[
 				"_boo",
 				"wp-content/themes/accessit/partials/_bootstrap.scss"
-			],
-			[
-				"ebi-scr",
-				"wp-content/themes/ebi/js/ebi-scripts.js"
 			]
 		],
 		"width": 0.0

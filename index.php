@@ -14,7 +14,7 @@
         <ul>
             <li><a href="#ImgGrid1">Headwear</a></li>
             <li><a href="#Slider">Apparel</a></li>
-            <li class="flex-end"><a href="https://www.47brand.com/collections/47-classics-1">Shop Classics</a></li>
+            <li class="flex-end"><a href="https://www.47brand.com/collections/47-classics">Shop Classics</a></li>
         </ul>
     </nav>
     <div id="ContentWrapper" class="content-wrapper">
@@ -227,9 +227,9 @@
                 <div class="sub-product" data-color="pink-hat">
                     <div class="flex">
                         <div class="col-3">
-                            <h2>'47 Cleanup</h2>
+                            <h2>'47 Clean Up</h2>
                             <p>Transcends generations with a silhouette that fits a diverse range of personal style.</p>
-                            <a href="https://www.47brand.com/collections/47-classics-47-clean-up">Shop Now</a>
+                            <a href="https://www.47brand.com/collections/classic-47-clean-up">Shop Now</a>
                         </div>
                         <div class="col-9">
                             <div class="gallery">
@@ -241,13 +241,13 @@
                 <div class="sub-product" data-color="borderland-hat">
                     <div class="flex">
                         <div class="col-3">
-                            <h2>Borderland</h2>
+                            <h2>Borderland '47 Clean Up</h2>
                             <p>Relaxed, curved and made from a textured, lightweight canvas that’s stonewashed for an all-over fade.</p>
-                            <a href="https://www.47brand.com/collections/47-classics-47-clean-up">Shop Now</a>
+                            <a href="https://www.47brand.com/collections/classic-47-clean-up">Shop Now</a>
                         </div>
                         <div class="col-9">
                             <div class="gallery">
-                                <img src="../_img/borderland-hat.png" alt="">
+                                <img src="../_img/borderland-hat1.png" alt="">
                             </div>
                         </div>
                     </div><!-- .flex -->
@@ -255,13 +255,13 @@
                 <div class="sub-product" data-color="encoder-hat">
                     <div class="flex">
                         <div class="col-3">
-                            <h2>Encoder</h2>
+                            <h2>Encoder '47 Clean Up</h2>
                             <p>Relaxed, curved, and made from a blend of cotton and recycled soda bottles (rPET).</p>
-                            <a href="https://www.47brand.com/collections/47-classics-47-clean-up">Shop Now</a>
+                            <a href="https://www.47brand.com/collections/classic-47-clean-up">Shop Now</a>
                         </div>
                         <div class="col-9">
                             <div class="gallery">
-                                <img src="../_img/encoder-hat.png" alt="">
+                                <img src="../_img/encoder-hat1.png" alt="">
                             </div>
                         </div>
                     </div><!-- .flex -->
@@ -269,9 +269,9 @@
                 <div class="sub-product" data-color="stoneham-hat">
                     <div class="flex">
                         <div class="col-3">
-                            <h2>Stoneham</h2>
+                            <h2>Stoneham '47 Clean Up</h2>
                             <p>Relaxed, curved and made from two tones of light canvas material.</p>
-                            <a href="https://www.47brand.com/collections/47-classics-47-clean-up">Shop Now</a>
+                            <a href="https://www.47brand.com/collections/classic-47-clean-up">Shop Now</a>
                         </div>
                         <div class="col-9">
                             <div class="gallery">
@@ -290,7 +290,7 @@
                             <div class="col-3">
                                 <h2>'47 Franchise</h2>
                                 <p>Relaxed, curved, and made from a blend of cotton and recycled soda bottles (rPET), dyed with vibrant colors and then washed for a soft, worn-in look.</p>
-                                <a href="https://www.47brand.com/collections/47-classics-47-franchise">Shop Now</a>
+                                <a href="https://www.47brand.com/collections/classic-47-franchise">Shop Now</a>
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
@@ -309,7 +309,7 @@
                         <div class="col-3">
                             <h2>'47 MVP</h2>
                             <p>Low profile crown with buckram panels that keep its structured shape. A Velcro strap helps you find your custom fit.</p>
-                            <a href="https://www.47brand.com/collections/47-classics-47-mvp">Shop Now</a>
+                            <a href="https://www.47brand.com/collections/classic-47-mvp">Shop Now</a>
                         </div>
                         <div class="col-9">
                             <div class="gallery">
@@ -321,9 +321,9 @@
                 <div class="sub-product" data-color="self-hat">
                     <div class="flex">
                         <div class="col-3">
-                            <h2>Wool Blend '47 Blend</h2>
+                            <h2>Wool Blend ’47 MVP</h2>
                             <p>Structured, curved, with a metal buckle in back. Made from our signature, unwashed Wool Blend material.</p>
-                            <a href="https://www.47brand.com/collections/47-classics-47-mvp">Shop Now</a>
+                            <a href="https://www.47brand.com/collections/classic-47-mvp">Shop Now</a>
                         </div>
                         <div class="col-9">
                             <div class="gallery">
@@ -335,9 +335,9 @@
                 <div class="sub-product" data-color="munson-hat">
                     <div class="flex">
                         <div class="col-3">
-                            <h2>Munson</h2>
+                            <h2>Munson '47 MVP</h2>
                             <p>Structured and curved with a Wool Heather crown and Melton Wool visor for some extra texture.</p>
-                            <a href="https://www.47brand.com/collections/47-classics-47-mvp">Shop Now</a>
+                            <a href="https://www.47brand.com/collections/classic-47-mvp">Shop Now</a>
                         </div>
                         <div class="col-9">
                             <div class="gallery">
@@ -355,7 +355,7 @@
                         <div class="col-3">
                             <h2>'47 Captain</h2>
                             <p>A reissue of the traditional snapback, inspired by its original design, and a notable choice for expressing personal style.</p>
-                            <a href="https://www.47brand.com/collections/47-classics-47-captain">Shop Now</a>
+                            <a href="https://www.47brand.com/collections/classic-47-captain">Shop Now</a>
                         </div>
                         <div class="col-9">
                             <div class="gallery">
@@ -436,7 +436,7 @@
                             <div class="col-3">
                                 <h2>'47 Scrum</h2>
                                 <p>Your favorite tee from the first wear. 100% ring-spun combed cotton with slub yarns that create a heathered look and provide a more natural texture.</p>
-                                <a href="https://www.47brand.com/collections/47-classics-apparel">Shop Now</a>
+                                <a href="https://www.47brand.com/collections/classic-47-apparel">Shop Now</a>
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
@@ -450,7 +450,7 @@
                             <div class="col-3">
                                 <h2>'47 Scrum Long Sleeve</h2>
                                 <p>Same superb softness of your favorite tee, but with ribbed details at the cuffs that enhance durability.</p>
-                                <a href="https://www.47brand.com/collections/47-classics-apparel">Shop Now</a>
+                                <a href="https://www.47brand.com/collections/classic-47-apparel">Shop Now</a>
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
@@ -464,7 +464,7 @@
                             <div class="col-3">
                                 <h2>'47 Scrum Henley</h2>
                                 <p>It’s all in the details. Your favorite tee, embellished with buttons at the neckline.</p>
-                                <a href="https://www.47brand.com/collections/47-classics-apparel">Shop Now</a>
+                                <a href="https://www.47brand.com/collections/classic-47-apparel">Shop Now</a>
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
@@ -476,13 +476,27 @@
                     <div class="sub-product" data-color="borderland-shirt">
                         <div class="flex">
                             <div class="col-3">
-                                <h2>Borderland Tee</h2>
+                                <h2>'47 Borderland Tee</h2>
                                 <p>Soft, lightweight 100% ring-spun combed cotton is pigment dyed and then washed for that faded, worn-in look.</p>
-                                <a href="https://www.47brand.com/collections/47-classics-apparel">Shop Now</a>
+                                <a href="https://www.47brand.com/collections/classic-47-apparel">Shop Now</a>
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
                                     <img src="../_img/321841-HR-AF.png" alt="">
+                                </div>
+                            </div>
+                        </div><!-- .flex -->
+                    </div><!-- .sub-product -->
+                    <div class="sub-product" data-color="downfield-hood">
+                        <div class="flex">
+                            <div class="col-3">
+                                <h2>'47 Downfield Hood</h2>
+                                <p>Incredibly soft, lightweight heathered jersey tee with a tonal lined hood.</p>
+                                <a href="https://www.47brand.com/collections/classic-47-apparel">Shop Now</a>
+                            </div>
+                            <div class="col-9">
+                                <div class="gallery">
+                                    <img src="../_img/322034-HR-AF.png" alt="">
                                 </div>
                             </div>
                         </div><!-- .flex -->
@@ -497,25 +511,11 @@
                             <div class="col-3">
                                 <h2>'47 Scrimmage Hood</h2>
                                 <p>100% ring-spun combed cotton French Terry is finely looped and constructed to feel lightweight and look high-end –– featured in a myriad of apparel silhouettes.</p>
-                                <a href="https://www.47brand.com/collections/47-classics-apparel">Shop Now</a>
+                                <a href="https://www.47brand.com/collections/classic-47-apparel">Shop Now</a>
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
                                     <img src="../_img/321887-HR-AF.png" alt="">
-                                </div>
-                            </div>
-                        </div><!-- .flex -->
-                    </div><!-- .sub-product -->
-                    <div class="sub-product" data-color="downfield-hood">
-                        <div class="flex">
-                            <div class="col-3">
-                                <h2>Downfield Hood</h2>
-                                <p>100% ring-spun combed cotton French Terry is finely looped and constructed to feel lightweight and look high-end –– featured in a myriad of apparel silhouettes.</p>
-                                <a href="https://www.47brand.com/collections/47-classics-apparel">Shop Now</a>
-                            </div>
-                            <div class="col-9">
-                                <div class="gallery">
-                                    <img src="../_img/322034-HR-AF.png" alt="">
                                 </div>
                             </div>
                         </div><!-- .flex -->
@@ -525,7 +525,7 @@
                             <div class="col-3">
                                 <h2>'47 Scrimmage Full Zip</h2>
                                 <p>100% ring-spun combed cotton French Terry is finely looped and constructed to feel lightweight and look high-end –– featured in a myriad of apparel silhouettes.</p>
-                                <a href="https://www.47brand.com/collections/47-classics-apparel">Shop Now</a>
+                                <a href="https://www.47brand.com/collections/classic-47-apparel">Shop Now</a>
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
@@ -537,9 +537,9 @@
                     <div class="sub-product" data-color="powerplay-hood">
                         <div class="flex">
                             <div class="col-3">
-                                <h2>PowerPlay Hood</h2>
+                                <h2>'47 Powerplay Hood</h2>
                                 <p>100% ring-spun combed cotton French Terry is finely looped and constructed to feel lightweight and look high-end –– featured in a myriad of apparel silhouettes.</p>
-                                <a href="https://www.47brand.com/collections/47-classics-apparel">Shop Now</a>
+                                <a href="https://www.47brand.com/collections/classic-47-apparel">Shop Now</a>
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
@@ -551,9 +551,9 @@
                     <div class="sub-product" data-color="baserunner-crew">
                         <div class="flex">
                             <div class="col-3">
-                                <h2>Baserunner Crew</h2>
+                                <h2>'47 Base Runner Crew</h2>
                                 <p>100% ring-spun combed cotton French Terry is finely looped and constructed to feel lightweight and look high-end –– featured in a myriad of apparel silhouettes.</p>
-                                <a href="https://www.47brand.com/collections/47-classics-apparel">Shop Now</a>
+                                <a href="https://www.47brand.com/collections/classic-47-apparel">Shop Now</a>
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
@@ -567,7 +567,7 @@
                             <div class="col-3">
                                 <h2>'47 Blitz Pullover</h2>
                                 <p>100% ring-spun combed cotton French Terry is finely looped and constructed to feel lightweight and look high-end –– featured in a myriad of apparel silhouettes.</p>
-                                <a href="https://www.47brand.com/collections/47-classics-apparel">Shop Now</a>
+                                <a href="https://www.47brand.com/collections/classic-47-apparel">Shop Now</a>
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
@@ -581,7 +581,7 @@
                             <div class="col-3">
                                 <h2>'47 State Jogger</h2>
                                 <p>100% ring-spun combed cotton French Terry is finely looped and constructed to feel lightweight and look high-end –– featured in a myriad of apparel silhouettes.</p>
-                                <a href="https://www.47brand.com/collections/47-classics-apparel">Shop Now</a>
+                                <a href="https://www.47brand.com/collections/classic-47-apparel">Shop Now</a>
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
@@ -622,7 +622,7 @@
             </g>
         </svg>
         </div><!-- .logo-cont -->
-        <a href="https://www.47brand.com/collections/47-classics-1" class="bttn">Shop '47 Classics</a>
+        <a href="https://www.47brand.com/collections/47-classics" class="bttn">Shop '47 Classics</a>
     </footer>
     <?php include_once("includes/footer-47.php"); ?>
     </div><!-- .content-wrapper -->

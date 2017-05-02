@@ -688,6 +688,7 @@ p {
 	box-shadow: 0 2.4vw 4.25vw -1vw rgba(100, 100, 100, .5);
 	h2 {
 		margin-bottom: 0;
+		text-transform: uppercase;
 	}
 	p {
 		color: #A2A2A2;
@@ -1284,10 +1285,10 @@ a.bttn {
 	&[data-color="red-hat"] {
 		background: radial-gradient(ellipse farthest-corner at 50% 1px, #C3354B 0%, #4B1015 100%);
 	}
-	&[data-color="borderland-hat"] {
+	&[data-color="encoder-hat"] {
 		background: radial-gradient(ellipse farthest-corner at 50% 1px, #8B9CB0 0%, #525F74 100%);
 	}
-	&[data-color="encoder-hat"] {
+	&[data-color="borderland-hat"] {
 		background: radial-gradient(ellipse farthest-corner at 50% 1px, #9BA78D 0%, #6D755E 100%);
 	}
 	&[data-color="stoneham-hat"] {
@@ -1646,6 +1647,24 @@ a.bttn {
 						}
 					}
 				}
+				&[data-color="downfield-hood"] {
+					.col-3 {
+						p, h2 {
+							color: black;
+						}
+						a {
+							color: black;
+							border-color: black;
+							&:hover {
+								color: white;
+								background: black;
+							}
+						}
+						&:after {
+							background: linear-gradient(-157deg, #F5F5F5 0%, #BDBDBD 100%);
+						}
+					}
+				}
 			}
 		}
 		&#Product2 {
@@ -1738,24 +1757,6 @@ a.bttn {
 						}
 						&:after {
 							background: linear-gradient(-157deg, #FAF4E6 0%, #E1D5BC 100%);
-						}
-					}
-				}
-				&[data-color="downfield-hood"] {
-					.col-3 {
-						p, h2 {
-							color: black;
-						}
-						a {
-							color: black;
-							border-color: black;
-							&:hover {
-								color: white;
-								background: black;
-							}
-						}
-						&:after {
-							background: linear-gradient(-157deg, #F5F5F5 0%, #BDBDBD 100%);
 						}
 					}
 				}
@@ -1965,7 +1966,7 @@ a.bttn {
 						}
 					}
 				}
-				&[data-color="borderland-hat"]{
+				&[data-color="encoder-hat"]{
 					.col-3 {
 						p,h2 {
 							color: white;
@@ -1984,7 +1985,7 @@ a.bttn {
 					}
 
 				}
-				&[data-color="encoder-hat"]{
+				&[data-color="borderland-hat"]{
 					.col-3 {
 						p,h2 {
 							color: white;

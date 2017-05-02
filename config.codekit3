@@ -725,11 +725,11 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/_img\/borderland-hat.png": {
+	"\/_img\/borderland-hat1.png": {
 		"ft": 32768,
-		"iS": 296895,
+		"iS": 277973,
 		"oA": 0,
-		"oAP": "\/_img\/borderland-hat.png",
+		"oAP": "\/_img\/borderland-hat1.png",
 		"oF": 0,
 		"opt": 1
 		},
@@ -791,11 +791,11 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/_img\/encoder-hat.png": {
+	"\/_img\/encoder-hat1.png": {
 		"ft": 32768,
-		"iS": 277973,
+		"iS": 296895,
 		"oA": 0,
-		"oAP": "\/_img\/encoder-hat.png",
+		"oAP": "\/_img\/encoder-hat1.png",
 		"oF": 0,
 		"opt": 1
 		},
