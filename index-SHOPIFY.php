@@ -3,12 +3,11 @@
     <title>47 Brand Hats Demo</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Arvo|Montserrat:300,400,500,600,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://cdn.shopify.com/s/files/1/0817/3919/t/21/assets/staging--coble.css?9454726553914938928">
-    <link rel="stylesheet" type="text/css" href="https://cdn.shopify.com/s/files/1/0817/3919/t/21/assets/47-nav-home.scss.css?9454726553914938928">
-    <link rel="stylesheet" type="text/css" href="_scss/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.shopify.com/s/files/1/0817/3919/t/21/assets/staging--coble.css?9454726553914938928"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.shopify.com/s/files/1/0817/3919/t/21/assets/47-nav-home.scss.css?9454726553914938928"> -->
+    <link rel="stylesheet" type="text/css" href="_scss/47-classics-style.css">
 </head>
 <body>
-     <?php include_once("includes/47-main-nav.php"); ?>
     <nav class="sub-nav">
         <h1 class="nav-header">47 Classics</h1>
         <ul>
@@ -22,13 +21,13 @@
     <header class="main-prod-display" id="MainHeader">
         <div id="Logo">
             <h1>47 Classics</h1>
-            <h2>’47 CLASSICS are an ode to the canvas beneath the art –– the fabrics and shapes that serve as our standard for quality and fit.</h2>
+            <h2>The ’47 CLASSICS collection is an ode to the canvas beneath the art––the fabrics and shapes that serve as our standard for quality and fit.</h2>
         </div><!-- #Logo -->
     </header>
     </div><!-- .animate-wrap -->
     <div class="content image-grid pt-5 bg-grey-grad" id="ImgGrid1">
         <div class="col-9" data-scroll="-30">
-            <img src="../_img/06_47_Classics_DTLA_3647.jpg" alt="">
+            <img src="{{ '06_47_Classics_DTLA_3647.jpg' | asset_url }}" alt="">
         </div>
         <div class="col-3">
         </div>
@@ -43,7 +42,7 @@
         <div class="col-6" data-scroll="130">
             <div class="img-grid-cont pl-20 pt-9 pb-9 pr-20 remove-p-m">
                 <div class="border-cont">
-                    <img src="../_img/AW17_S_8431_sRGB_BALANCE.jpg" alt="" />
+                    <img src="{{ 'AW17_S_8431_sRGB_BALANCE.jpg' | asset_url }}" alt="" />
                     <div class="border-top"></div>
                     <div class="border-right"></div>
                     <div class="border-bottom"></div>
@@ -53,12 +52,12 @@
         </div>
         <div class="col-6" data-scroll="-250">
             <div class="img-grid-cont pt-24 remove-p-m">
-                <img src="../_img/SS17_Lifestyle_D1_7266.jpg" />
+                <img src="{{ 'SS17_Lifestyle_D1_7266.jpg' | asset_url }}" />
             </div>
         </div>
         <div class="col-6" data-scroll="400">
             <div class="img-grid-cont pl-20 pr-20 remove-p-m remove-m-m">
-                <img src="../_img/SS17_Lifestyle_D1_1656.jpg" alt="" />
+                <img src="{{ 'SS17_Lifestyle_D1_1656.jpg' | asset_url }}" alt="" />
             </div>
         </div>
     </div>
@@ -66,145 +65,145 @@
          <div class="col-9 remove-p-m">
             <ul class="slider" data-slider="1">
                 <li class="warn-360">
-                    <img src="../_img/black-hat-1.jpg" alt="">
+                    <img src="{{ 'black-hat-1.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-2.jpg" alt="">
+                    <img src="{{ 'black-hat-2.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-3.jpg" alt="">
+                    <img src="{{ 'black-hat-3.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-4.jpg" alt="">
+                    <img src="{{ 'black-hat-4.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-5.jpg" alt="">
+                    <img src="{{ 'black-hat-5.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-6.jpg" alt="">
+                    <img src="{{ 'black-hat-6.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-7.jpg" alt="">
+                    <img src="{{ 'black-hat-7.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-8.jpg" alt="">
+                    <img src="{{ 'black-hat-8.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-9.jpg" alt="">
+                    <img src="{{ 'black-hat-9.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Crowns are sized and constructed to be reliable, comfortable and custom feeling.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-10.jpg" alt="">
+                    <img src="{{ 'black-hat-10.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-11.jpg" alt="">
+                    <img src="{{ 'black-hat-11.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-12.jpg" alt="">
+                    <img src="{{ 'black-hat-12.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-13.jpg" alt="">
+                    <img src="{{ 'black-hat-13.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-14.jpg" alt="">
+                    <img src="{{ 'black-hat-14.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-15.jpg" alt="">
+                    <img src="{{ 'black-hat-15.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-16.jpg" alt="">
+                    <img src="{{ 'black-hat-16.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-17.jpg" alt="">
+                    <img src="{{ 'black-hat-17.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-18.jpg" alt="">
+                    <img src="{{ 'black-hat-18.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-19.jpg" alt="">
+                    <img src="{{ 'black-hat-19.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-20.jpg" alt="">
+                    <img src="{{ 'black-hat-20.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-21.jpg" alt="">
+                    <img src="{{ 'black-hat-21.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-22.jpg" alt="">
+                    <img src="{{ 'black-hat-22.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-23.jpg" alt="">
+                    <img src="{{ 'black-hat-23.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
                     </div>
                 </li>
                 <li>
-                    <img src="../_img/black-hat-24.jpg" alt="">
+                    <img src="{{ 'black-hat-24.jpg' | asset_url }}" alt="">
                     <div class="desc">
                          <p>Structured or relaxed, flat or curved –– precise stitching pieces all the details together.</p>
                     </div>
@@ -233,7 +232,7 @@
                         </div>
                         <div class="col-9">
                             <div class="gallery">
-                                <img src="../_img/pink-hat.png" alt="">
+                                <img src="{{ 'pink-hat.png' | asset_url }}" alt="">
                             </div>
                         </div>
                     </div><!-- .flex -->
@@ -247,7 +246,7 @@
                         </div>
                         <div class="col-9">
                             <div class="gallery">
-                                <img src="../_img/borderland-hat1.png" alt="">
+                                <img src="{{ 'borderland-hat1.png' | asset_url }}" alt="">
                             </div>
                         </div>
                     </div><!-- .flex -->
@@ -261,7 +260,7 @@
                         </div>
                         <div class="col-9">
                             <div class="gallery">
-                                <img src="../_img/encoder-hat1.png" alt="">
+                                <img src="{{ 'encoder-hat1.png' | asset_url }}" alt="">
                             </div>
                         </div>
                     </div><!-- .flex -->
@@ -275,7 +274,7 @@
                         </div>
                         <div class="col-9">
                             <div class="gallery">
-                                <img src="../_img/stoneham-hat.png" alt="">
+                                <img src="{{ 'stoneham-hat.png' | asset_url }}" alt="">
                             </div>
                         </div>
                     </div><!-- .flex -->
@@ -294,7 +293,7 @@
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
-                                    <img src="../_img/gun-metal-hat.png" alt="">
+                                    <img src="{{ 'gun-metal-hat.png' | asset_url }}" alt="">
                                 </div>
                             </div>
                         </div><!-- .flex -->
@@ -313,7 +312,7 @@
                         </div>
                         <div class="col-9">
                             <div class="gallery">
-                                <img src="../_img/black-hat.png" alt="">
+                                <img src="{{ 'black-hat.png' | asset_url }}" alt="">
                             </div>
                         </div>
                     </div><!-- .flex -->
@@ -327,7 +326,7 @@
                         </div>
                         <div class="col-9">
                             <div class="gallery">
-                                <img src="../_img/selfstrap-hat.png" alt="">
+                                <img src="{{ 'selfstrap-hat.png' | asset_url }}" alt="">
                             </div>
                         </div>
                     </div><!-- .flex -->
@@ -341,7 +340,7 @@
                         </div>
                         <div class="col-9">
                             <div class="gallery">
-                                <img src="../_img/munson-hat.png" alt="">
+                                <img src="{{ 'munson-hat.png' | asset_url }}" alt="">
                             </div>
                         </div>
                     </div><!-- .flex -->
@@ -359,7 +358,7 @@
                         </div>
                         <div class="col-9">
                             <div class="gallery">
-                                <img src="../_img/red-hat.png" alt="">
+                                <img src="{{ 'red-hat.png' | asset_url }}" alt="">
                             </div>
                         </div>
                     </div><!-- .flex -->
@@ -372,7 +371,7 @@
     </div>
     <div class="content image-grid pt-5 pb-5 bg-grey" id="ImgGrid3">
         <div class="col-9" data-scroll="-20">
-            <img src="../_img/06_47_Classics_DTLA_3970.jpg" alt="">
+            <img src="{{ '06_47_Classics_DTLA_3970.jpg' | asset_url }}" alt="">
         </div>
         <div class="col-3">
         </div>
@@ -386,7 +385,7 @@
         <div class="col-6" data-scroll="130">
             <div class="img-grid-cont pl-20 pt-9 pb-9 pr-20 remove-p-m">
                 <div class="border-cont">
-                    <img src="../_img/AW17_S_8431_sRGB_BALANCE2.jpg" alt="" />
+                    <img src="{{ 'AW17_S_8431_sRGB_BALANCE2.jpg' | asset_url }}" alt="" />
                     <div class="border-top"></div>
                     <div class="border-right"></div>
                     <div class="border-bottom"></div>
@@ -397,12 +396,12 @@
         </div>
         <div class="col-6" data-scroll="-250">
             <div class="img-grid-cont pt-24 remove-p-m">
-                <img src="../_img/SS17_Lifestyle_D1_7266v2.jpg" />
+                <img src="{{ 'SS17_Lifestyle_D1_7266v2.jpg' | asset_url }}" />
             </div>
         </div>
         <div class="col-6" data-scroll="400">
             <div class="img-grid-cont pl-20 pr-20 remove-p-m remove-m-m">
-                <img src="../_img/SS17_Lifestyle_D1_1656v2.jpg" alt="" />
+                <img src="{{ 'SS17_Lifestyle_D1_1656v2.jpg' | asset_url }}" alt="" />
             </div>
         </div>
     </div>
@@ -410,13 +409,13 @@
          <div class="col-9 remove-p-m">
             <ul class="slider">
                 <li>
-                    <img src="../_img/06_47_Classics_DTLA_3951.jpg" alt="">
+                    <img src="{{ '06_47_Classics_DTLA_3951.jpg' | asset_url }}" alt="">
                 </li>
                 <li>
-                    <img src="../_img/06_47_Classics_DTLA_4144.jpg" alt="">
+                    <img src="{{ '06_47_Classics_DTLA_4144.jpg' | asset_url }}" alt="">
                 </li>
                 <li>
-                    <img src="../_img/06_47_Classics_DTLA_4170.jpg" alt="">
+                    <img src="{{ '06_47_Classics_DTLA_4170.jpg' | asset_url }}" alt="">
                 </li>
             </ul>
         </div>
@@ -440,7 +439,7 @@
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
-                                    <img src="../_img/321853-HR-AF.png" alt="">
+                                    <img src="{{ '321853-HR-AF.png' | asset_url }}" alt="">
                                 </div>
                             </div>
                         </div><!-- .flex -->
@@ -454,7 +453,7 @@
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
-                                    <img src="../_img/321862-HR-AF.png" alt="">
+                                    <img src="{{ '321862-HR-AF.png' | asset_url }}" alt="">
                                 </div>
                             </div>
                         </div><!-- .flex -->
@@ -468,7 +467,7 @@
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
-                                    <img src="../_img/321865-HR-AF.png" alt="">
+                                    <img src="{{ '321865-HR-AF.png' | asset_url }}" alt="">
                                 </div>
                             </div>
                         </div><!-- .flex -->
@@ -482,7 +481,7 @@
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
-                                    <img src="../_img/321841-HR-AF.png" alt="">
+                                    <img src="{{ '321841-HR-AF.png' | asset_url }}" alt="">
                                 </div>
                             </div>
                         </div><!-- .flex -->
@@ -496,7 +495,7 @@
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
-                                    <img src="../_img/322034-HR-AF.png" alt="">
+                                    <img src="{{ '322034-HR-AF.png' | asset_url }}" alt="">
                                 </div>
                             </div>
                         </div><!-- .flex -->
@@ -515,7 +514,7 @@
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
-                                    <img src="../_img/321887-HR-AF.png" alt="">
+                                    <img src="{{ '321887-HR-AF.png' | asset_url }}" alt="">
                                 </div>
                             </div>
                         </div><!-- .flex -->
@@ -529,7 +528,7 @@
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
-                                    <img src="../_img/321876-HR-AF.png" alt="">
+                                    <img src="{{ '321876-HR-AF.png' | asset_url }}" alt="">
                                 </div>
                             </div>
                         </div><!-- .flex -->
@@ -543,7 +542,7 @@
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
-                                    <img src="../_img/321880-HR-AF.png" alt="">
+                                    <img src="{{ '321880-HR-AF.png' | asset_url }}" alt="">
                                 </div>
                             </div>
                         </div><!-- .flex -->
@@ -557,7 +556,7 @@
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
-                                    <img src="../_img/322039-HR-AF.png" alt="">
+                                    <img src="{{ '322039-HR-AF.png' | asset_url }}" alt="">
                                 </div>
                             </div>
                         </div><!-- .flex -->
@@ -571,7 +570,7 @@
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
-                                    <img src="../_img/322037-HR-AF.png" alt="">
+                                    <img src="{{ '322037-HR-AF.png' | asset_url }}" alt="">
                                 </div>
                             </div>
                         </div><!-- .flex -->
@@ -585,7 +584,7 @@
                             </div>
                             <div class="col-9">
                                 <div class="gallery">
-                                    <img src="../_img/322038-HR-AF.png" alt="">
+                                    <img src="{{ '322038-HR-AF.png' | asset_url }}" alt="">
                                 </div>
                             </div>
                         </div><!-- .flex -->
@@ -624,10 +623,9 @@
         </div><!-- .logo-cont -->
         <a href="https://www.47brand.com/collections/47-classics" class="bttn">Shop '47 Classics</a>
     </footer>
-    <?php include_once("includes/footer-47.php"); ?>
     </div><!-- .content-wrapper -->
 </body>
-<script src="https://cdn.jsdelivr.net/jquery/2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="_javascript/classics-jquery.mousewheel.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>

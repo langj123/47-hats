@@ -1,0 +1,357 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   {% include 'Plug-In-SEO-Meta' %}
+  {% comment %}
+  
+  <title>
+    {{ page_title }}
+    {% if current_tags %}
+      &ndash; "{{ current_tags | join: ', ' }}"
+    {% endif %}
+    {% if current_page != 1 %}
+      &ndash; {{ 'general.pagination.seo_title' | t }} {{ current_page }}
+    {% endif %}
+    {% unless page_title contains shop.name %}
+      &ndash; {{ shop.name }}
+    {% endunless %}
+  </title>
+  
+  
+  {% endcomment %}
+  
+  <meta name="viewport" content="width=device-width, intial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  
+  <!-- Hide products pages not in collection subfolder from Google to avoid duplicate results -->
+
+    <meta name="robots" content="follow" />
+
+  
+  <!-- POWER TOOLS -->
+  {% assign primary_sort_collection = collection %}
+  {% if collection.metafields.sort_primary.collection_handle %}
+  {% assign primary_sort_collection = collections[collection.metafields.sort_primary.collection_handle] %}
+  {% endif %}
+  {% if template contains "collection" and primary_sort_collection %}
+  <link rel="canonical" href="{{ shop.url }}{{ primary_sort_collection.url }}{% if current_tags and current_tags.first %}/{{ current_tags.first }}{% endif %}{% if current_tags and current_tags[1] %}+{{ current_tags[1] }}{% endif %}{% if current_page > 1 %}?page={{ current_page }}{% endif %}" />
+  {% else%}
+  <link rel="canonical" href="{{ canonical_url }}" />
+  {% endif %}
+  
+  <!-- Favicon -->
+  <link href="{{ 'favicon.png' | asset_url }}" rel="shortcut icon">
+
+  <!-- Styles -->
+  {{ 'app.css' | asset_url | stylesheet_tag }}
+  
+  <link href="https://fonts.googleapis.com/css?family=Arvo:400,700|Montserrat:400,700" rel="stylesheet">
+  
+  {{ '47-brand.css' | asset_url | stylesheet_tag }}
+  <!--{{ '47-brand.min.css' | asset_url | stylesheet_tag }}-->
+  {{ '47-brand-ics.scss.css' | asset_url | stylesheet_tag }}
+  {{ '47-nav-home.scss.css' | asset_url | stylesheet_tag }}
+  
+  {% if template contains 'classics' %}
+   {{ '47-classics-style.scss.css' | asset_url | stylesheet_tag }}
+  {% endif %}
+  
+  {% comment %}
+  {% if template contains 'search' %}
+    {{ 'mobile-search.css' | asset_url | stylesheet_tag }}
+  {% endif %}
+  {% endcomment %}
+  
+  {{ 'staging--simmons.css' | asset_url | stylesheet_tag }}
+  {{ 'staging--coble.css' | asset_url | stylesheet_tag }}
+  
+  <!-- Shopfy Injected Header -->
+  {{ content_for_header }}
+  
+  <!-- Shopify js -->
+  {% if template contains 'customers' %}
+    {{ 'shopify_common.js' | shopify_asset_url | script_tag }}
+    {{ 'customer_area.js'  | shopify_asset_url | script_tag }}
+  {% endif %}
+  {{ 'option_selection.js' | shopify_asset_url | script_tag }}
+  
+  <!-- Facebook Open Graph -->
+  {% include 'facebook-og' %}
+
+  <!-- Twitter Cards -->
+  {% include 'twitter-card' %}
+ 
+{% unless customer  %}
+  {{ 'perfect-promo.css' | asset_url | stylesheet_tag }}
+{% endunless %}
+  
+  <script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0045/0968.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+  
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1282804821729597', {
+em: 'insert_email_variable,'
+});
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1282804821729597&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->  
+  
+<!-- Algolia head -->
+  <script type="text/template" id="template_algolia_money_format">{% include 'algolia_money_format' %}</script>
+  <script type="text/template" id="template_algolia_autocomplete">{% include 'algolia_autocomplete.hogan' %}</script>
+  <script type="text/template" id="template_algolia_autocomplete.css">{% include 'algolia_autocomplete.css.hogan' %}</script>
+  <script type="text/template" id="template_algolia_autocomplete_collection">{% include 'algolia_autocomplete_collection.hogan' %}</script>
+  <script type="text/template" id="template_algolia_autocomplete_collections_empty">{% include 'algolia_autocomplete_collections_empty.hogan' %}</script>
+  <script type="text/template" id="template_algolia_autocomplete_article">{% include 'algolia_autocomplete_article.hogan' %}</script>
+  <script type="text/template" id="template_algolia_autocomplete_articles_empty">{% include 'algolia_autocomplete_articles_empty.hogan' %}</script>
+  <script type="text/template" id="template_algolia_autocomplete_product">{% include 'algolia_autocomplete_product.hogan' %}</script>
+  <script type="text/template" id="template_algolia_autocomplete_products_empty">{% include 'algolia_autocomplete_products_empty.hogan' %}</script>
+  <script type="text/template" id="template_algolia_autocomplete_footer">{% include 'algolia_autocomplete_footer.hogan' %}</script>
+  <script type="text/template" id="template_algolia_instant_search">{% include 'algolia_instant_search.hogan' %}</script>
+  <script type="text/template" id="template_algolia_instant_search.css">{% include 'algolia_instant_search.css.hogan' %}</script>
+  <script type="text/template" id="template_algolia_instant_search_stats">{% include 'algolia_instant_search_stats.hogan' %}</script>
+  <script type="text/template" id="template_algolia_instant_search_facet_item">{% include 'algolia_instant_search_facet_item.hogan' %}</script>
+  <script type="text/template" id="template_algolia_instant_search_current_refined_values_item">{% include 'algolia_instant_search_current_refined_values_item.hogan' %}</script>
+  <script type="text/template" id="template_algolia_instant_search_product">{% include 'algolia_instant_search_product.hogan' %}</script>
+  <script type="text/template" id="template_algolia_instant_search_no_result">{% include 'algolia_instant_search_no_result.hogan' %}</script>
+  {{ '//cdn.jsdelivr.net/fontawesome/4.4.0/css/font-awesome.min.css' | stylesheet_tag }}
+  {{ '//cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.css' | stylesheet_tag }}
+  {{ '//cdn.polyfill.io/v2/polyfill.min.js' | script_tag }}
+  {{ '//cdn.jsdelivr.net/lodash/3.7.0/lodash.min.js' | script_tag }}
+  {{ '//cdn.jsdelivr.net/jquery/2/jquery.min.js' | script_tag }}
+  {{ '//cdn.jsdelivr.net/hogan.js/3/hogan.min.js' | script_tag }}
+  {{ '//cdn.jsdelivr.net/autocomplete.js/0.21.3/autocomplete.jquery.min.js' | script_tag }}
+  {{ '//cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js' | script_tag }}
+  {{ '//cdn.jsdelivr.net/instantsearch.js/1/instantsearch.min.js' | script_tag }}
+  {{ 'algolia_config.js' | asset_url | script_tag }}
+  {{ 'algolia_init.js' | asset_url | script_tag }}
+  {{ 'algolia_helpers.js' | asset_url | script_tag }}
+  {{ 'algolia_autocomplete.js' | asset_url | script_tag }}
+  {{ 'algolia_facets.js' | asset_url | script_tag }}
+  {{ 'algolia_sort_orders.js' | asset_url | script_tag }}
+  {{ 'algolia_instant_search.js' | asset_url | script_tag }}
+<!-- /Algolia head -->
+</head>
+  
+<body class="
+{% if template == 'index' %}
+home
+{% elsif template contains 'classics' %}
+classics
+{% elsif template contains 'collection' %}
+collection
+{% elsif template contains 'addresses' %}
+edit-address account-page
+{% elsif template contains 'account' %}
+my-account account-page
+{% elsif template contains 'order' %}
+order-detail account-page
+{% elsif template contains 'register' %}
+register account-page
+{% elsif template contains 'activate_account' %}
+activate account-page
+{% elsif template contains 'product' %}
+product-detail
+{% elsif template == 'search' %}
+search-results
+{% else %}
+{{ template | replace: '.', ' ' | truncatewords: 1, '' | append: '-page' }}
+{% endif %}
+ flicker">
+
+  {% include 'header-2016' %}  
+
+
+  
+<!-- Header -->
+  {% comment %}{% include 'header' %}{% endcomment %}
+
+<!-- All Drop Navs -->
+
+  {% comment %}{% include 'dropdown-nav' %}{% endcomment %}
+  
+<!-- Mobile Nav -->
+
+  {% comment %}{% include 'mobile-dropdown-nav' %}{% endcomment %}
+  
+<!-- Customer Modals -->
+  
+  {% include 'customer-modals' %}
+  
+<!-- Search Modal -->
+  {% include 'search-modal' %}
+  
+<!-- Drawer Menu -->
+
+  {% comment %}{% include 'drawer-menu' %}{% endcomment %}
+
+  
+<!-- Side Cart -->
+  
+  {% include 'side-cart' %}
+
+  <!-- Page Content -->
+  
+  {{ content_for_layout }}
+
+<!-- Footer -->
+
+  {% include 'footer-2016' %}
+  
+    <!-- Scripts -->
+    
+  {{ '47-brand.min.js' | asset_url | script_tag }}
+  {{ '47-brand-add.js' | asset_url | script_tag }}
+  {{ '47-nav-2016.js' | asset_url | script_tag }}
+  <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  {{ 'jquery.cycle2.js' | asset_url | script_tag }}
+
+  {{ 'js.cookie.js' | asset_url | script_tag }}
+
+  <script type="text/javascript">
+  $(function() {
+    if(!Cookies.get('fsloc')){//if there is no location cookie, get it so we can see if the user is in Australia or New Zealand
+      $.ajax({
+          url: "http://freegeoip.net/json/?callback=?",
+          jsonp: "processRedirect",
+          dataType: "jsonp",
+          data: {},
+          success: function( response ) {
+              Cookies.set('fsloc', response.country_code, { expires: 1 }); //set the cookie so we don't have to check again for 1 day
+              if(response.country_code == 'AU' || response.country_code == 'NZ'){ //if it's in a redirected country
+                if(!Cookies.get('fslocred')){//check to see if we haven't redirected previously
+                  window.location.replace('http://www.47brand.com.au/'); // we haven't redirected in the past day
+                  Cookies.set('fslocred', 'true', { expires: 1 }); //mark that we redirected today so it won't happen again for another day
+                }
+          }
+          }
+      });
+    } else {
+      //there was a location cookie - we've probably already checked which country they're in and redirected, so let's just keep them here since they've come back for some reason
+    }
+  });
+  </script>
+  
+  
+  {% comment %}
+
+  {% if template == 'index' %}
+    {% comment %} Homepage Blog Grid Data {% endcomment %}
+    {% assign blog_data_host = '//47-homepage-grid.rocketcodeapps.com' %}
+    {{ '/blogs/data' | prepend:blog_data_host | script_tag }}
+    
+    {% include 'homepage--grid-data' %}
+  {% endif %}
+  
+  {{ 'staging--simmons.js' | asset_url | script_tag }}
+  {{ 'staging--kemper.js' | asset_url | script_tag }}
+  {{ 'staging--coble.js' | asset_url | script_tag }}
+  {% endcomment %}
+
+  {% if template == 'index' %}
+    <script type="text/javascript" src="https://photorankstatics-a.akamaihd.net/81b03e40475846d5883661ff57b34ece/static/frontend/latest/build.min.js"  data-olapic="olapic_specific_widget" data-instance="a269d3363b4579a7e79ff3ce8c7b3c34" data-apikey="2365f1d809ad12362d51c730bae19e8815bd7f8f9e76ecbf9593f46e656cabe5" async="async"></script>
+  {% endif %}
+  {% if template == 'product' %}
+      <script type="text/javascript" src="https://photorankstatics-a.akamaihd.net/81b03e40475846d5883661ff57b34ece/static/frontend/latest/build.min.js"  data-olapic="olapic_specific_widget" data-instance="7b8277d93da0227c913697cedfa3bcd5" data-apikey="2365f1d809ad12362d51c730bae19e8815bd7f8f9e76ecbf9593f46e656cabe5" data-tags="{{product.id}}" async="async"></script>
+  {% endif %}
+  
+  
+  <script language="JavaScript"><!--
+{
+document.write("<img src=//tracking.searchmarketing.com/welcome.asp?SMCID=12014185&x="+escape(document.referrer)+" width=1 height=1>");
+}
+//-->
+  </script>
+  
+  <script type="text/javascript">
+    adroll_adv_id = "4UGPOLJUHRAQ3CN3L3N3PQ";
+    adroll_pix_id = "NVYMOAKHGJED7MV3IDK2OO";
+    (function () {
+        var _onload = function(){
+            if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+            if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+            var scr = document.createElement("script");
+            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+            scr.setAttribute('async', 'true');
+            scr.type = "text/javascript";
+            scr.src = host + "/j/roundtrip.js";
+            ((document.getElementsByTagName('head') || [null])[0] ||
+                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+        };
+        if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+        else {window.attachEvent('onload', _onload)}
+    }());
+</script>
+<script src="//js.b1js.com/tagcontainer.js?id=ba3d537e0ab24c9da9620a563d055945&type=1"></script>  
+
+<!--
+  <script>
+    var _perf = Array();
+    {% for p in cart.items %}_perf[{{ forloop.index0 }}] = [ '{{ p.product.id }}', '{{ p.id }}', '{{ p.price }}', '{{ p.product.type | escape }}',  '{{ p.quantity }}'];{% endfor %}
+    (function()
+    {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.id = 'perfect-promo-script';
+      s.src = 'https://perfect-promo.rocketcodeapps.com/perfect/E4AD6A5C06BEB12AFEF01594F4457D9A199AE04D.js?promo=' + encodeURIComponent(JSON.stringify(_perf));
+      document.getElementsByTagName('head')[0].appendChild(s);
+    })();
+  </script>-->
+{% if template == 'product' %}
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+var google_tag_params = {
+ecomm_prodid: 'shopify_US_{{ product.id }}_{{ product.variants.first.id }}',
+ecomm_pagetype: 'product',
+ecomm_totalvalue: {{ product.price_min | money_without_currency | remove: ',' }}
+};
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1005422770;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1005422770/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
+{% endif %}
+  {% if template contains 'classics' %}
+  {% comment %}add external libraries and local JS assets here{% endcomment %}
+    {{ 'classics-jquery.mousewheel.min.js' | asset_url | script_tag }}
+    {{ 'https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js' | script_tag }}
+    {{ 'https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js' | script_tag }}
+    {{ 'https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js' | script_tag }}
+    {{ 'https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js' | script_tag }}
+    {{ 'classics-jquery.flexslider.js' | asset_url | script_tag }}
+    {{ 'classics-actions-sm-gs.js' | asset_url | script_tag }}
+  {% endif %}
+  
+  </body>
+</html>

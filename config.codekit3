@@ -21,118 +21,6 @@
 		"oAP": "\/47-hats.sublime-workspace",
 		"oF": 0
 		},
-	"\/_img\/01-d-1.png": {
-		"ft": 32768,
-		"iS": 70956,
-		"oA": 0,
-		"oAP": "\/_img\/01-d-1.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/01-d.png": {
-		"ft": 32768,
-		"iS": 70956,
-		"oA": 0,
-		"oAP": "\/_img\/01-d.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/02-d-1.png": {
-		"ft": 32768,
-		"iS": 78353,
-		"oA": 0,
-		"oAP": "\/_img\/02-d-1.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/02-d.png": {
-		"ft": 32768,
-		"iS": 78353,
-		"oA": 0,
-		"oAP": "\/_img\/02-d.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/03-d-1.png": {
-		"ft": 32768,
-		"iS": 74430,
-		"oA": 0,
-		"oAP": "\/_img\/03-d-1.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/03-d.png": {
-		"ft": 32768,
-		"iS": 74430,
-		"oA": 0,
-		"oAP": "\/_img\/03-d.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/04-d-1.png": {
-		"ft": 32768,
-		"iS": 51365,
-		"oA": 0,
-		"oAP": "\/_img\/04-d-1.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/04-d-2.png": {
-		"ft": 32768,
-		"iS": 53984,
-		"oA": 0,
-		"oAP": "\/_img\/04-d-2.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/04-d-3.png": {
-		"ft": 32768,
-		"iS": 53526,
-		"oA": 0,
-		"oAP": "\/_img\/04-d-3.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/04-d.png": {
-		"ft": 32768,
-		"iS": 51365,
-		"oA": 0,
-		"oAP": "\/_img\/04-d.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/05-d-1.png": {
-		"ft": 32768,
-		"iS": 73313,
-		"oA": 0,
-		"oAP": "\/_img\/05-d-1.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/05-d.png": {
-		"ft": 32768,
-		"iS": 73313,
-		"oA": 0,
-		"oAP": "\/_img\/05-d.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/06-d-1.png": {
-		"ft": 32768,
-		"iS": 79297,
-		"oA": 0,
-		"oAP": "\/_img\/06-d-1.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/06-d.png": {
-		"ft": 32768,
-		"iS": 79297,
-		"oA": 0,
-		"oAP": "\/_img\/06-d.png",
-		"oF": 0,
-		"opt": 1
-		},
 	"\/_img\/06_47_Classics_DTLA_3647.jpg": {
 		"ft": 16384,
 		"iS": 197764,
@@ -234,102 +122,6 @@
 		"iS": 233239,
 		"oA": 0,
 		"oAP": "\/_img\/06_47_Classics_DTLA_4170.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/07-d-1.png": {
-		"ft": 32768,
-		"iS": 72049,
-		"oA": 0,
-		"oAP": "\/_img\/07-d-1.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/07-d.png": {
-		"ft": 32768,
-		"iS": 72049,
-		"oA": 0,
-		"oAP": "\/_img\/07-d.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/08-d-1.png": {
-		"ft": 32768,
-		"iS": 71334,
-		"oA": 0,
-		"oAP": "\/_img\/08-d-1.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/08-d.png": {
-		"ft": 32768,
-		"iS": 71334,
-		"oA": 0,
-		"oAP": "\/_img\/08-d.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/09-d-1.png": {
-		"ft": 32768,
-		"iS": 65127,
-		"oA": 0,
-		"oAP": "\/_img\/09-d-1.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/09-d.png": {
-		"ft": 32768,
-		"iS": 65127,
-		"oA": 0,
-		"oAP": "\/_img\/09-d.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/10-d-1.png": {
-		"ft": 32768,
-		"iS": 41014,
-		"oA": 0,
-		"oAP": "\/_img\/10-d-1.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/10-d.png": {
-		"ft": 32768,
-		"iS": 41014,
-		"oA": 0,
-		"oAP": "\/_img\/10-d.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/11-d-1.png": {
-		"ft": 32768,
-		"iS": 64068,
-		"oA": 0,
-		"oAP": "\/_img\/11-d-1.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/11-d.png": {
-		"ft": 32768,
-		"iS": 64068,
-		"oA": 0,
-		"oAP": "\/_img\/11-d.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/12-d-1.png": {
-		"ft": 32768,
-		"iS": 70048,
-		"oA": 0,
-		"oAP": "\/_img\/12-d-1.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/12-d.png": {
-		"ft": 32768,
-		"iS": 70048,
-		"oA": 0,
-		"oAP": "\/_img\/12-d.png",
 		"oF": 0,
 		"opt": 1
 		},
@@ -741,22 +533,6 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/_img\/cardinals.jpg": {
-		"ft": 16384,
-		"iS": 98510,
-		"oA": 0,
-		"oAP": "\/_img\/cardinals.jpg",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/cardinals.png": {
-		"ft": 32768,
-		"iS": 210025,
-		"oA": 0,
-		"oAP": "\/_img\/cardinals.png",
-		"oF": 0,
-		"opt": 1
-		},
 	"\/_img\/classics-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -772,14 +548,6 @@
 		"iS": 205362,
 		"oA": 0,
 		"oAP": "\/_img\/couple-walking.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/cuse.jpg": {
-		"ft": 16384,
-		"iS": 61947,
-		"oA": 0,
-		"oAP": "\/_img\/cuse.jpg",
 		"oF": 0,
 		"opt": 1
 		},
@@ -820,198 +588,6 @@
 		"iS": 241838,
 		"oA": 0,
 		"oAP": "\/_img\/gun-metal-hat.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-0.png": {
-		"ft": 32768,
-		"iS": 379099,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-0.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-1.png": {
-		"ft": 32768,
-		"iS": 394534,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-1.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-10.png": {
-		"ft": 32768,
-		"iS": 330051,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-10.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-11.png": {
-		"ft": 32768,
-		"iS": 369510,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-11.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-12.png": {
-		"ft": 32768,
-		"iS": 390408,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-12.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-13.png": {
-		"ft": 32768,
-		"iS": 386251,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-13.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-14.png": {
-		"ft": 32768,
-		"iS": 383792,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-14.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-15.png": {
-		"ft": 32768,
-		"iS": 364787,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-15.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-16.png": {
-		"ft": 32768,
-		"iS": 350402,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-16.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-17.png": {
-		"ft": 32768,
-		"iS": 325652,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-17.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-18.png": {
-		"ft": 32768,
-		"iS": 314010,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-18.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-2.png": {
-		"ft": 32768,
-		"iS": 388021,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-2.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-3.png": {
-		"ft": 32768,
-		"iS": 366917,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-3.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-4.png": {
-		"ft": 32768,
-		"iS": 336383,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-4.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-5.png": {
-		"ft": 32768,
-		"iS": 306677,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-5.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-6.png": {
-		"ft": 32768,
-		"iS": 273453,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-6.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-7.png": {
-		"ft": 32768,
-		"iS": 257179,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-7.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-8.png": {
-		"ft": 32768,
-		"iS": 261840,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-8.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-9.png": {
-		"ft": 32768,
-		"iS": 291712,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-9.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-95.png": {
-		"ft": 32768,
-		"iS": 256727,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-95.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-96.png": {
-		"ft": 32768,
-		"iS": 320660,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-96.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-97.png": {
-		"ft": 32768,
-		"iS": 324891,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-97.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-98.png": {
-		"ft": 32768,
-		"iS": 343344,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-98.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/hat-360-99.png": {
-		"ft": 32768,
-		"iS": 363828,
-		"oA": 0,
-		"oAP": "\/_img\/hat-360-99.png",
 		"oF": 0,
 		"opt": 1
 		},
@@ -1163,14 +739,6 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/_img\/squatting.jpg": {
-		"ft": 16384,
-		"iS": 36325,
-		"oA": 0,
-		"oAP": "\/_img\/squatting.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/_img\/SS17_Lifestyle_D1_1656.jpg": {
 		"ft": 16384,
 		"iS": 44974,
@@ -1211,43 +779,11 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/_img\/stoic-guy-hat.png": {
-		"ft": 32768,
-		"iS": 75235,
-		"oA": 0,
-		"oAP": "\/_img\/stoic-guy-hat.png",
-		"oF": 0,
-		"opt": 1
-		},
 	"\/_img\/stoneham-hat.png": {
 		"ft": 32768,
 		"iS": 271151,
 		"oA": 0,
 		"oAP": "\/_img\/stoneham-hat.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/_img\/story-bg-1.jpg": {
-		"ft": 16384,
-		"iS": 102957,
-		"oA": 0,
-		"oAP": "\/_img\/story-bg-1.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_img\/story-bg.jpg": {
-		"ft": 16384,
-		"iS": 102957,
-		"oA": 0,
-		"oAP": "\/_img\/story-bg.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_img\/test-shadow.png": {
-		"ft": 32768,
-		"iS": 3327529,
-		"oA": 0,
-		"oAP": "\/_img\/test-shadow.png",
 		"oF": 0,
 		"opt": 1
 		},
@@ -1313,15 +849,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/_javascript\/actions-sm-gs.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_javascript\/actions-sm-gs-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/_javascript\/actions-solid-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1349,29 +876,38 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/_javascript\/jquery.flexslider-min.js": {
+	"\/_javascript\/classics-actions-sm-gs.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/_javascript\/jquery.flexslider-min-min.js",
+		"oAP": "\/_javascript\/classics-actions-sm-gs-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/_javascript\/jquery.flexslider.js": {
+	"\/_javascript\/classics-jquery.flexslider-min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/_javascript\/jquery.flexslider-min.js",
+		"oAP": "\/_javascript\/classics-jquery.flexslider-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/_javascript\/jquery.mousewheel.min.js": {
+	"\/_javascript\/classics-jquery.flexslider.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/_javascript\/jquery.mousewheel.min-min.js",
+		"oAP": "\/_javascript\/classics-jquery.flexslider-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/_javascript\/classics-jquery.mousewheel.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_javascript\/classics-jquery.mousewheel.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1409,6 +945,58 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/_scss\/47-classics-style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/_scss\/47-classics-style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_scss\/47-classics-style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_scss\/47-classics-style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_scss\/47-classics-style.scss.liquid": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_scss\/47-classics-style.scss.liquid",
+		"oF": 0
+		},
+	"\/_scss\/classics-grid.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/_scss\/classics-grid-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_scss\/grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_scss\/grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/_scss\/style-solid.css": {
 		"aP": 0,
 		"bl": 0,
@@ -1441,19 +1029,6 @@
 		"oAP": "\/_scss\/style-min.css",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/_scss\/style.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_scss\/style.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		},
 	"\/css\/style-min.css": {
 		"aP": 0,
@@ -1499,6 +1074,12 @@
 		"oAP": "\/index-OLD.php",
 		"oF": 0
 		},
+	"\/index-SHOPIFY.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index-SHOPIFY.php",
+		"oF": 0
+		},
 	"\/index-solid.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1509,6 +1090,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.php",
+		"oF": 0
+		},
+	"\/liquid.theme.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/liquid.theme.html",
 		"oF": 0
 		},
 	"\/MAMP-PRO-Logo.png": {
