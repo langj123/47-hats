@@ -18,6 +18,9 @@ body > header:first-of-type {
   .main-navigation .toggle {
     z-index: 1000; } }
 
+nav.main-navigation .menu.primary {
+  height: auto; }
+
 body {
   padding: 0;
   margin: 0;
