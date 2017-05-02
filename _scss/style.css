@@ -216,7 +216,13 @@ p {
       height: auto; } }
   .main-prod-display #Logo {
     position: relative;
-    padding: 10% 70vw 10% 5vw; }
+    padding: 8% 72vw 8% 5vw; }
+    @media screen and (min-width: 1001px) and (max-width: 1200px) {
+      .main-prod-display #Logo {
+        padding: 4% 72vw 4% 5vw; } }
+    @media screen and (max-width: 1000px) {
+      .main-prod-display #Logo {
+        padding: 1% 72vw 1% 5vw; } }
     .main-prod-display #Logo h1 {
       background: url(../_img/classics-logo.svg) no-repeat left center/100%;
       text-indent: 0;
@@ -228,14 +234,19 @@ p {
         .main-prod-display #Logo h1 {
           width: 100px;
           margin: 0 auto; } }
+      @media screen and (min-width: 601px) and (max-width: 1200px) {
+        .main-prod-display #Logo h1 {
+          width: 160px;
+          height: 200px; } }
       @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
         .main-prod-display #Logo h1 {
           width: 73px;
-          height: 160px; } }
+          height: 160px;
+          margin: 0 auto; } }
       @media screen and (min-width: 601px) and (max-width: 860px) {
         .main-prod-display #Logo h1 {
           width: 120px;
-          margin: 0 auto; } }
+          height: 155px; } }
       @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
         .main-prod-display #Logo h1 {
           margin: 15px 0; } }
@@ -243,11 +254,15 @@ p {
       color: #222222;
       font-size: 26px;
       line-height: 37px;
-      margin-top: 40px;
-      text-shadow: 1px 0 10px white; }
+      margin-top: 40px; }
+      @media screen and (min-width: 601px) and (max-width: 1200px) {
+        .main-prod-display #Logo h2 {
+          font-size: 22px;
+          line-height: 30px; } }
       @media screen and (max-width: 600px) {
         .main-prod-display #Logo h2 {
-          font-size: 26px;
+          font-size: 22px;
+          line-height: 30px;
           margin: 0 5vw 10px; } }
       @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
         .main-prod-display #Logo h2 {

@@ -1023,6 +1023,22 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/_img\/header-couple.jpg": {
+		"ft": 16384,
+		"iS": 164865,
+		"oA": 0,
+		"oAP": "\/_img\/header-couple.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_img\/header-gradient.jpg": {
+		"ft": 16384,
+		"iS": 25408,
+		"oA": 0,
+		"oAP": "\/_img\/header-gradient.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/_img\/henley-scrum.png": {
 		"ft": 32768,
 		"iS": 97241,

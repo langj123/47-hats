@@ -278,7 +278,13 @@ p {
 	}
 	#Logo {
 		position: relative;
-		padding: 10% 70vw 10% 5vw;
+		padding: 8% 72vw 8% 5vw;
+		@media screen and (min-width: 1001px) and (max-width: 1200px) {
+			padding: 4% 72vw 4% 5vw;
+		}
+		@media screen and (max-width: 1000px){
+			padding: 1% 72vw 1% 5vw;
+		}
 		h1 {
 			background: url(../_img/classics-logo.svg) no-repeat left center / 100%;
 			text-indent: 0;
@@ -290,15 +296,20 @@ p {
 				width: 100px;
 				margin: 0 auto;
 			}
+			@media screen and (min-width: $m-smll + 1px) and (max-width: 1200px) {
+				width: 160px;
+				height: 200px;
+			}
 			@media only screen
 				and (min-device-width : 320px)
 				and (max-device-width : 480px) {
 					width: 73px;
 					height: 160px;
+					margin: 0 auto;
 			}
 			@media screen and (min-width: $m-smll + 1px) and (max-width: $m-med) {
 				width: 120px;
-				margin: 0 auto;
+				height: 155px;
 			}
 			@media only screen
 				and (min-device-width : 320px)
@@ -312,9 +323,13 @@ p {
 			font-size: 26px;
 			line-height: 37px;
 			margin-top: 40px;
-			text-shadow: 1px 0 10px white;
+			@media screen and (min-width: $m-smll + 1px) and (max-width: 1200px) {
+				font-size: 22px;
+				line-height: 30px;
+			}
 			@media screen and (max-width: $m-smll) {
-				font-size: 26px;
+				font-size: 22px;
+				line-height: 30px;
 				margin: 0 5vw 10px;
 			}
 			@media only screen
